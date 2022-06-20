@@ -76,7 +76,7 @@ export default function Section1() {
                     </div>
                 </div>
 
-                <div className='pt-[200px]  px-8'>
+                <div className='pt-[200px]  container mx-auto'>
                         <Image src={myimg4} alt="" />
                     </div>
             </div>
