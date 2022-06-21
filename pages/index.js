@@ -1,3 +1,4 @@
+import Footer from "../src/components/Footer"
 import Header from "../src/components/header"
 import Hero from "../src/components/hero"
 import Section1 from "../src/components/section1"
@@ -9,14 +10,15 @@ import Section6 from "../src/components/section6"
 export default function MyApp() {
   return (
     <div className="">
-      <Header />
+      {/* <Header />
       <Hero />
       <Section1 />
       <Section2 />
       <Section3 />
       <Section4 />
-      <Section5 />
+      <Section5 /> */}
       <Section6 />
+      <Footer />
     </div>
   )
 

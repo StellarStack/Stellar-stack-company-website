@@ -6,7 +6,6 @@ import myimg18 from '../../public/images/PREMIER ORTHO.png'
 import myimg19 from '../../public/images/Kabo.png'
 import myimg20 from '../../public/images/PROFIT CURVE.png'
 import myimg21 from '../../public/images/Circles.png'
-import bg from '../../public/images/Footer image.png'
 import Image from 'next/image'
 
 
@@ -101,6 +100,8 @@ export default function Section6() {
                     </div>
                 </div>
             </div>
+
+           
 
         </>
     )
