@@ -70,7 +70,7 @@ export default function Section1() {
 
                 <div className='mt-44 w-[100%]'>
                     <div className='ml-[100.03px]  tracking-tighter'>
-                        <span className='text-[#0399DA] font-semibold '>02. OUR SRVICES</span>
+                        <span className='text-[#0399DA] font-semibold '>02. OUR SERVICES</span>
                         <h1 className='text-[54px] leading-[60px] font-semibold pt-8'>StellarStack techstack,<br></br>
                             smart and innovative.</h1>
                     </div>

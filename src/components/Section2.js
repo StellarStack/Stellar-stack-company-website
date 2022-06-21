@@ -53,15 +53,15 @@ export default function Section2() {
 
 
                 <div className='container mx-auto  tracking-tighter flex justify-end px-[86px] pt-32'>
-                   <div>
-                    <span className='text-[#0399DA] font-semibold '>03. WHY StellarStack</span>
-                    <h1 className='text-[46px] leading-[60px] font-semibold pt-6'>With StellarStack, you use...</h1>
+                    <div>
+                        <span className='text-[#0399DA] font-semibold '>03. WHY StellarStack</span>
+                        <h1 className='text-[46px] leading-[60px] font-semibold pt-6'>With StellarStack, you use...</h1>
+                    </div>
+                    <div className=''>
+
+                    </div>
+
                 </div>
-<div className=''>
-
-</div>
-
-            </div>
             </div>
 
 
