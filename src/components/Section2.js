@@ -5,8 +5,8 @@ export default function Section2() {
         <>
 
             <div className="container mx-auto max-w-[1400px]">
-                <div className="container mx-auto pt-10 flex">
-                    <div className=" w-[50%]">
+                <div className="container mx-auto pt-10 lg:flex lg:px-0 md:px-12 sm:px-12 px-12">
+                    <div className=" md:w-[50%]">
                         <h1 className="text-[20px]">Check out our full line of our services, that we<br></br> provide in the domain of Information<br></br> Technology globally.
                         </h1>
                         <div className='pt-8'>
@@ -14,8 +14,8 @@ export default function Section2() {
                         </div>
                     </div>
 
-                    <div className="w-[50%]">
-                        <h1 className='text-[24px]'>Featured Sevices</h1>
+                    <div className="md:w-[50%] md:pt-12 sm:pt-12 lg:pt-0 pt-12">
+                        <h1 className='text-[24px] '>Featured Sevices</h1>
                         <div className="flex gap-x-12 mb-12 mt-2">
                             <div className="">
                                 <div className=' pt-12 px-8 rounded-xl border-black border-[0.5px] pb-3  '>

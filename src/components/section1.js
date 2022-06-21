@@ -1,7 +1,5 @@
 
-import myimg4 from '../../public/images/Line.png'
 import Image from 'next/image'
-import React from 'react'
 
 
 export default function Section1() {
@@ -14,14 +12,14 @@ export default function Section1() {
                     <h1 className='text-[50px] leading-[60px] font-semibold pt-6'>StellarStack enables clients to manage<br></br>
                         digital identity by providing them<br></br> eminent services.</h1>
                 </div>
-                <div className='flex gap-x-8'>
+                <div className='md:flex gap-x-8'>
 
 
-                    <div className='ml-[100.03px] pt-20 w-[50%]'>
+                    <div className='ml-[100.03px] pt-20 md:w-[50%]'>
                         <Image src='/images/Image circles.png' width={680} height={635} alt="" />
                     </div>
 
-                    <div className='w-[60%]'>
+                    <div className='sm:px-24 md:px-24 lg:px-0 xl:px-0 md:w-[60%]'>
                         <h1 className='text-[26px] font-semibold leading-[37px] pt-28'>Since 2018, StellarStack has been helping organizations<br></br> worldwide get reliable  websites  without any fuss. </h1>
                         <h1 className='text-[19px] font-medium leading-[29px] pt-6 '>Businesses, Software firms, Design Studios and Countless customers have<br></br> experienced how StellarStack can help them become more efficient</h1>
 
@@ -43,7 +41,7 @@ export default function Section1() {
 
 
 
-                        <div className=' flex gap-x-2 '>
+                        <div className=' md:flex gap-x-2  '>
                             <div className=''>
                                 <svg width="10" height="88" viewBox="0 0 14 88" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <line x1="7.44043" x2="7.44043" y2="88" stroke="black" />

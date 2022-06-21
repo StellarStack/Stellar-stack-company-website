@@ -7,7 +7,7 @@ export default function Section5() {
         <>
             <div className='container mx-auto mt-44 overflow-hidden max-w-[1400px]'>
 
-                <div className='ml-[100.03px]  tracking-tighter container mx-auto'>
+                <div className='mdml-[100.03px]  tracking-tighter container mx-auto'>
                     <span className='text-[#0399DA] font-semibold '>04. FEATURED CASE STUDY</span>
                     <h1 className='text-[54px] leading-[60px] font-semibold pt-1'>Our successful <br></br>
                         implementation stories.</h1>

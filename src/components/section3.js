@@ -1,7 +1,5 @@
 import Image from 'next/image'
-import myimg7 from '../../public/images/Rectangle 15.png'
-import myimg8 from '../../public/images/Rectangle 16.png'
-import myimg9 from '../../public/images/image 2.png'
+
 
 
 
