@@ -1,13 +1,11 @@
 
-import myimg11 from '../../public/images/Line.png'
-import myimg12 from '../../public/images/image 10.png'
-import myimg13 from '../../public/images/Line (2).png'
+
 import Image from 'next/image'
 
 export default function Section5() {
     return (
         <>
-            <div className='container mx-auto mt-44 overflow-hidden'>
+            <div className='container mx-auto mt-44 overflow-hidden max-w-[1400px]'>
 
                 <div className='ml-[100.03px]  tracking-tighter container mx-auto'>
                     <span className='text-[#0399DA] font-semibold '>04. FEATURED CASE STUDY</span>
@@ -16,7 +14,7 @@ export default function Section5() {
                 </div>
 
                 <div className='pt-20'>
-                    <Image src={myimg11} alt='' />
+                    <Image src='/images/Line.png' width={1532.02} height={10} alt="" />
                 </div>
 
                 <div className='flex gap-x-12'>
@@ -26,12 +24,12 @@ export default function Section5() {
                         </h1>
                     </div>
                     <div className='w-[50%]'>
-                        <Image className='' src={myimg12} alt='' />
+                        <Image src='/images/image 10.png' width={766} height={450} alt="" />
                     </div>
                 </div>
 
                 <div className='mt-28'>
-                    <Image src={myimg13} alt='' />
+                    <Image src='/images/Line.png' width={1532.02} height={10} alt="" />
                 </div>
             </div>
         </>

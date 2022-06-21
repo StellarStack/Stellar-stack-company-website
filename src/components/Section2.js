@@ -1,12 +1,10 @@
-import myimg5 from '../../public/images/image 11.png'
-import myimg6 from '../../public/images/image 12.png'
 import Image from 'next/image'
 
 export default function Section2() {
     return (
         <>
 
-            <div className="container mx-auto max-w-[1700px]">
+            <div className="container mx-auto max-w-[1400px]">
                 <div className="container mx-auto pt-10 flex">
                     <div className=" w-[50%]">
                         <h1 className="text-[20px]">Check out our full line of our services, that we<br></br> provide in the domain of Information<br></br> Technology globally.
@@ -22,7 +20,7 @@ export default function Section2() {
                             <div className="">
                                 <div className=' pt-12 px-8 rounded-xl border-black border-[0.5px] pb-3  '>
                                     <div className='px-5'>
-                                        <Image src={myimg5} alt="" />
+                                        <Image src= '/images/image 11.png' width={275} height={245} alt="" />
                                     </div>
                                     <div className=''>
                                         <h1 className='font-semibold text-[18px]'>Web Development</h1>
@@ -38,7 +36,7 @@ export default function Section2() {
                             <div className="">
                                 <div className=' pt-12 px-8 rounded-xl  border-[0.5px] border-black pb-3 '>
                                     <div className='px-[35px]'>
-                                        <Image src={myimg6} alt="" />
+                                    <Image src= '/images/image 12.png' width={229} height={245} alt="" />
                                     </div>
                                     <div className=''>
                                         <h1 className='font-semibold text-[18px]'>Web Development</h1>

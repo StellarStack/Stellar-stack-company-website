@@ -24,6 +24,15 @@ a {
 }
 
 .footer{
-  background-image: url(../public//images/Footer\ image.png);
+  background-image: url(/images/FooterImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero{
+  background-image: url(/images/Hero.png);
+  background-size: cover;
+  background-position: center;
+  
 }
 
