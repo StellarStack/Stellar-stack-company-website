@@ -1,4 +1,4 @@
-import myimg2 from '../../public/images/Background Image.png'
+
 import Image from 'next/image'
 import React from 'react'
 
@@ -6,13 +6,19 @@ import React from 'react'
 export default function Hero() {
     return (
         <>
-            {/* <div className="relative w-full max-w-[1400px] mx-auto container">
-                <Image className='w-full max-w-[1700px]' src={myimg2} alt="" />
+
+            <div className='hero pb-[280px] flex justify-center  text-center  '>
+                <div className='text-white pt-[300px] leading-none'>
+                    <h1 className='text-[80px]'>Build Real-Time<br></br>
+                        <span className='text-[80px] text-blue-600 '>Apps & Services</span></h1>
+                    <h1 className='pt-8 text-[30px] text-center'>Smart solutions and digital experiences for organizations.</h1>
+             
+
+                <div className=' pt-12 '>
+                    <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-2'>GET IN TOUCH</button>
+                </div>
             </div>
-            <div className='absolute inset-x-[420px] inset-y-[340px]'>
-                <h1 className='text-white text-[54px]'>Build Real-Time.</h1>
             </div>
- */}
 
 
 

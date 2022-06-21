@@ -1,16 +1,16 @@
-import myimg10 from '../../public/images/Line (1).png'
-import myimg6 from '../../public/images/image 12.png'
+
+
 import Image from 'next/image'
 
 export default function Section4() {
     return (
         <>
 
-            <div className='container mx-auto pt-[324px]'>
+            <div className='container mx-auto pt-[324px] max-w-[1400px]'>
                 <div className='flex justify-end  '>
                     <div className='w-[55%]'>
                         <div className=''>
-                            <Image src={myimg10} alt='' />
+                        <Image src='/images/Line.png' alt='' width={932} height={10} />
                         </div>
                         <div className='flex gap-x-12 pt-12'>
                             <div className='pt-4'>
@@ -35,7 +35,7 @@ export default function Section4() {
                 <div className='flex justify-end pt-12 '>
                     <div className='w-[55%]'>
                         <div className=''>
-                            <Image src={myimg10} alt='' />
+                        <Image src='/images/Line.png' alt='' width={932} height={10} />
                         </div>
                         <div className='flex gap-x-12 pt-12'>
                             <div className='pt-4'>
@@ -60,7 +60,7 @@ export default function Section4() {
                 <div className='flex justify-end pt-12 '>
                     <div className='w-[55%]'>
                         <div className=''>
-                            <Image src={myimg10} alt='' />
+                        <Image src='/images/Line.png' alt='' width={932} height={10} />
                         </div>
                         <div className='flex gap-x-12 pt-12'>
                             <div className='pt-4'>

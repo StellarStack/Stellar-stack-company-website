@@ -10,7 +10,7 @@ export default function Header() {
             <div className="container mx-auto flex">
 
                 <div className="w-[50%]">
-                    <Image src={myimg1} alt="" />
+                    <Image src='/images/LOGO TEXT.png' width={152} height={22} alt="" />
                 </div>
 
                 <div className=' w-[60%]'>

@@ -1,11 +1,4 @@
-import myimg14 from '../../public/images/SCTE.png'
-import myimg15 from '../../public/images/ZIPLINE.png'
-import myimg16 from '../../public/images/NGROK.png'
-import myimg17 from '../../public/images/LADS TECH.png'
-import myimg18 from '../../public/images/PREMIER ORTHO.png'
-import myimg19 from '../../public/images/Kabo.png'
-import myimg20 from '../../public/images/PROFIT CURVE.png'
-import myimg21 from '../../public/images/Circles.png'
+
 import Image from 'next/image'
 
 
@@ -14,7 +7,7 @@ export default function Section6() {
     return (
         <>
 
-            <div className="container mx-auto pt-24 overflow-hidden">
+            <div className="container mx-auto pt-24 overflow-hidden max-w-[1400px]">
 
                 <div className="">
                     <div className='ml-[100.03px]  tracking-tighter container mx-auto'>
@@ -26,16 +19,16 @@ export default function Section6() {
 
                 <div className="   grid grid-cols-3 mx-auto gap-x-7 pt-12 px-48 ">
                     <div className=''>
-                        <Image src={myimg14} alt='' />
+                    <Image src='/images/SCTE.png' width={374} height={350} alt="" />
                     </div>
 
                     <div className=''>
-                        <Image src={myimg15} alt='' />
+                    <Image src='/images/ZIPLINE.png' width={374} height={350} alt="" />
                     </div>
 
 
                     <div className=''>
-                        <Image src={myimg16} alt='' />
+                    <Image src='/images/NGROK.png' width={374} height={350} alt="" />
                     </div>
                     <div className="">
 
@@ -48,16 +41,16 @@ export default function Section6() {
 
                 <div className="   grid grid-cols-3 mx-auto gap-x-7 pt-12 px-48 ">
                     <div className=''>
-                        <Image src={myimg17} alt='' />
+                    <Image src='/images/LADS TECH.png' width={374} height={350} alt="" />
                     </div>
 
                     <div className=''>
-                        <Image src={myimg18} alt='' />
+                    <Image src='/images/PREMIER ORTHO.png' width={374} height={350} alt="" />
                     </div>
 
 
                     <div className=''>
-                        <Image src={myimg19} alt='' />
+                    <Image src='/images/kabo.png' width={374} height={350} alt="" />
                     </div>
                     <div className="">
 
@@ -67,14 +60,14 @@ export default function Section6() {
 
                 <div className='flex justify-center pt-3'>
                     <div className='w-[250px] h-[250px]'>
-                        <Image className='w-full' src={myimg20} alt='' />
+                    <Image src='/images/PROFIT CURVE.png' width={374} height={350} alt="" />
                     </div>
                     <div className=''></div>
                 </div>
             </div>
 
             <div className='w-[300px] h-[300px] '>
-                <Image src={myimg21} alt='' />
+            <Image src='/images/circles.png' width={374} height={350} alt="" />
             </div>
 
 

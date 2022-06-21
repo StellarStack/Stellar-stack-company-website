@@ -1,4 +1,4 @@
-import myimg3 from '../../public/images/Image circles.png'
+
 import myimg4 from '../../public/images/Line.png'
 import Image from 'next/image'
 import React from 'react'
@@ -8,7 +8,7 @@ export default function Section1() {
     return (
 
         <>
-            <div className=' mt-12 container mx-auto max-w-[1700px]'>
+            <div className=' mt-12 container mx-auto max-w-[1400px]'>
                 <div className='ml-[100.03px]  tracking-tighter'>
                     <span className='text-[#0399DA] font-semibold '>01. ABOUT US</span>
                     <h1 className='text-[50px] leading-[60px] font-semibold pt-6'>StellarStack enables clients to manage<br></br>
@@ -18,7 +18,7 @@ export default function Section1() {
 
 
                     <div className='ml-[100.03px] pt-20 w-[50%]'>
-                        <Image src={myimg3} alt="" />
+                        <Image src='/images/Image circles.png' width={680} height={635} alt="" />
                     </div>
 
                     <div className='w-[60%]'>
@@ -77,7 +77,7 @@ export default function Section1() {
                 </div>
 
                 <div className='pt-[200px]  container mx-auto'>
-                        <Image src={myimg4} alt="" />
+                <Image src='/images/Line.png' width={1532} height={10} alt="" />
                     </div>
             </div>
 
