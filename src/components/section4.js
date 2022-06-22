@@ -6,9 +6,9 @@ export default function Section4() {
     return (
         <>
 
-            <div className='container mx-auto pt-20 md:pt-[324px] max-w-[1400px]'>
-                <div className='flex md:justify-end  px-12 '>
-                    <div className='md:w-[55%]'>
+            <div className='container mx-auto pt-20 xl:pt-[324px] max-w-[1400px]'>
+                <div className='flex  justify-center xl:justify-end  px-12 '>
+                    <div className='lg:w-[55%]'>
                         <div className=''>
                         <Image src='/images/Line.png' alt='' width={932} height={10} />
                         </div>
@@ -32,8 +32,8 @@ export default function Section4() {
 
 
 
-                <div className='flex md:justify-end pt-12 px-12 '>
-                    <div className='md:w-[55%]'>
+                <div className='flex  justify-center xl:justify-end pt-12 px-12 '>
+                    <div className='lg:w-[55%]'>
                         <div className=''>
                         <Image src='/images/Line.png' alt='' width={932} height={10} />
                         </div>
@@ -57,8 +57,8 @@ export default function Section4() {
 
 
 
-                <div className='flex md:justify-end pt-12 px-12'>
-                    <div className='md:w-[55%]'>
+                <div className='flex justify-center xl:justify-end pt-12 px-12'>
+                    <div className='lg:w-[55%]'>
                         <div className=''>
                         <Image src='/images/Line.png' alt='' width={932} height={10} />
                         </div>
