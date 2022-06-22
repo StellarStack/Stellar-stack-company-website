@@ -88,30 +88,30 @@ export default function Footer() {
                     </div>
 
                 </div>
-            
 
 
-            <div className=''>
 
-                <div className='pt-12 sm:pt-12 md:pl-16 text-center sm:text-center md:text-center lg:text-right md:flex gap-x-32  container mx-auto'>
-                    <div className=' text-white'>
-                        <h1>copyright © 2021 StellarStack All right reserved</h1>
+                <div className=''>
+
+                    <div className='pt-12 sm:pt-12 md:pl-16 text-center sm:text-center md:text-center lg:text-right md:flex gap-x-32  container mx-auto'>
+                        <div className=' text-white'>
+                            <h1>copyright © 2021 StellarStack All right reserved</h1>
+                        </div>
+
+
+                        <div className=' text-white'>
+                            <h1>Term’s & Conditions</h1>
+                        </div>
+
+
+                        <div className=' text-white'>
+                            <h1>Privacy Policy</h1>
+                        </div>
+
                     </div>
-
-
-                    <div className=' text-white'>
-                        <h1>Term’s & Conditions</h1>
+                    <div className=' container pl-14 mx-auto pt-2' >
+                        <Image src='/images/Line4.png' width={1341} height={10} alt='' />
                     </div>
-                
-                
-                    <div className=' text-white'>
-                        <h1>Privacy Policy</h1>
-                    </div>
-                
-                </div>
-                <div className=' container pl-14 mx-auto pt-2' >
-                    <Image src='/images/Line4.png' width={1341} height={10}  alt=''/>
-                </div>
                 </div>
             </div>
         </>

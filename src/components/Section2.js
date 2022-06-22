@@ -20,7 +20,7 @@ export default function Section2() {
                             <div className="">
                                 <div className=' pt-12 px-8 rounded-xl border-black border-[0.5px] pb-3  '>
                                     <div className='px-5'>
-                                        <Image src= '/images/image11.png' width={275} height={245} alt="" />
+                                        <Image src='/images/image11.png' width={275} height={245} alt="" />
                                     </div>
                                     <div className=''>
                                         <h1 className='font-semibold text-[18px]'>Web Development</h1>
@@ -36,7 +36,7 @@ export default function Section2() {
                             <div className="sm:mt-0 mt-12">
                                 <div className=' pt-12 px-8 rounded-xl  border-[0.5px] border-black pb-3 '>
                                     <div className='px-4'>
-                                    <Image src= '/images/image 12.png' width={325} height={325} alt="" />
+                                        <Image src='/images/image 12.png' width={325} height={325} alt="" />
                                     </div>
                                     <div className=''>
                                         <h1 className='font-semibold text-[18px]'>Web Designing</h1>
@@ -55,7 +55,7 @@ export default function Section2() {
                         <span className='text-[#0399DA] font-semibold '>03. WHY StellarStack</span>
                         <h1 className='text-[38px] sm:text-[46px] sm:leading-[60px] font-semibold pt-6'>With StellarStack, you use...</h1>
                     </div>
-                   
+
 
                 </div>
             </div>

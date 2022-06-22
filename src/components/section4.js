@@ -10,7 +10,7 @@ export default function Section4() {
                 <div className='flex  justify-center xl:justify-end  px-12 '>
                     <div className='lg:w-[55%]'>
                         <div className=''>
-                        <Image src='/images/Line.png' alt='' width={932} height={10} />
+                            <Image src='/images/Line.png' alt='' width={932} height={10} />
                         </div>
                         <div className='sm:flex gap-x-12 pt-12'>
                             <div className='pt-4'>
@@ -35,7 +35,7 @@ export default function Section4() {
                 <div className='flex  justify-center xl:justify-end pt-12 px-12 '>
                     <div className='lg:w-[55%]'>
                         <div className=''>
-                        <Image src='/images/Line.png' alt='' width={932} height={10} />
+                            <Image src='/images/Line.png' alt='' width={932} height={10} />
                         </div>
                         <div className='sm:flex gap-x-12 pt-12'>
                             <div className='pt-4'>
@@ -60,7 +60,7 @@ export default function Section4() {
                 <div className='flex justify-center xl:justify-end pt-12 px-12'>
                     <div className='lg:w-[55%]'>
                         <div className=''>
-                        <Image src='/images/Line.png' alt='' width={932} height={10} />
+                            <Image src='/images/Line.png' alt='' width={932} height={10} />
                         </div>
                         <div className='sm:flex gap-x-12 pt-12'>
                             <div className='pt-4'>
