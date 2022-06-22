@@ -7,13 +7,13 @@ export default function Header() {
     return (
 
         <div className="bg-[#0d0d0d] pt-8 pb-4">
-            <div className="container mx-auto flex">
+            <div className="container mx-auto  sm:flex">
 
-                <div className="w-[50%]">
+                <div className="text-center sm:w-[50%]">
                     <Image src='/images/LOGO TEXT.png' width={152} height={22} alt="" />
                 </div>
 
-                <div className=' w-[60%]'>
+                <div className=' sm:w-[60%]'>
                     <span className='text-white px-3'>Home</span>
                     <span className='text-white px-3'>Services</span>
                     <span className='text-white px-3'>About us</span>

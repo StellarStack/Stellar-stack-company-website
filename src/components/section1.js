@@ -7,19 +7,19 @@ export default function Section1() {
 
         <>
             <div className=' mt-12 container mx-auto max-w-[1400px]'>
-                <div className='ml-[100.03px]  tracking-tighter'>
+                <div className='ml-10 md:ml-[100.03px]  tracking-tighter'>
                     <span className='text-[#0399DA] font-semibold '>01. ABOUT US</span>
-                    <h1 className='text-[50px] leading-[60px] font-semibold pt-6'>StellarStack enables clients to manage<br></br>
+                    <h1 className='text-[40px] md:text-[50px] sm:leading-[60px] font-semibold pt-6'>StellarStack enables clients to manage<br></br>
                         digital identity by providing them<br></br> eminent services.</h1>
                 </div>
                 <div className='md:flex gap-x-8'>
 
 
-                    <div className='ml-[100.03px] pt-20 md:w-[50%]'>
+                    <div className=' ml-4 sm:ml-[100.03px] pt-20 md:w-[50%]'>
                         <Image src='/images/Image circles.png' width={680} height={635} alt="" />
                     </div>
 
-                    <div className='sm:px-24 md:px-24 lg:px-0 xl:px-0 md:w-[60%]'>
+                    <div className='pl-12 md:pl-0 md:w-[60%]'>
                         <h1 className='text-[26px] font-semibold leading-[37px] pt-28'>Since 2018, StellarStack has been helping organizations<br></br> worldwide get reliable  websites  without any fuss. </h1>
                         <h1 className='text-[19px] font-medium leading-[29px] pt-6 '>Businesses, Software firms, Design Studios and Countless customers have<br></br> experienced how StellarStack can help them become more efficient</h1>
 
@@ -57,7 +57,7 @@ export default function Section1() {
 
                         </div>
 
-                        <div className=''>
+                        <div className='pt-12 md:pt-0'>
                             <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-2'>GET IN TOUCH</button>
                         </div>
 
@@ -67,9 +67,9 @@ export default function Section1() {
                 </div>
 
                 <div className='mt-44 w-[100%]'>
-                    <div className='ml-[100.03px]  tracking-tighter'>
+                    <div className= 'px-12 sm:px-0 sm:ml-[100.03px]  tracking-tighter'>
                         <span className='text-[#0399DA] font-semibold '>02. OUR SERVICES</span>
-                        <h1 className='text-[54px] leading-[60px] font-semibold pt-8'>StellarStack techstack,<br></br>
+                        <h1 className='text-[40px] sm:text-[54px] sm:leading-[60px] font-semibold pt-8'>StellarStack techstack,<br></br>
                             smart and innovative.</h1>
                     </div>
                 </div>
