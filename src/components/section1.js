@@ -16,7 +16,7 @@ export default function Section1() {
 
 
                     <div className=' ml-4 sm:ml-[100.03px] pt-20 md:w-[50%]'>
-                        <Image src='/images/Imagecircles.png' width={680} height={635} alt="" />
+                        <Image src='/images/ImageCircles.png' width={680} height={635} alt="" />
                     </div>
 
                     <div className='pl-12 md:pl-0 md:w-[60%]'>
@@ -35,11 +35,7 @@ export default function Section1() {
                                 <h1 className='text-[18px] font-bold '>5 YEARS</h1>
                                 <h1 className='text-[16px]  font-medium leading-tight'>solid experience in<br></br> Web Development.</h1>
                             </div>
-
-
                         </div>
-
-
 
                         <div className=' md:flex gap-x-2  '>
                             <div className=''>

@@ -49,7 +49,7 @@ export default function Section6() {
 
 
                     <div className=''>
-                    <Image src='/images/kabo.png' width={374} height={350} alt="" />
+                    <Image src='/images/Kabo.png' width={374} height={350} alt="" />
                     </div>
                     <div className="">
 
@@ -66,7 +66,7 @@ export default function Section6() {
             </div>
 
             <div className=' '>
-            <Image src='/images/circles.png' width={374} height={350} alt="" />
+            <Image src='/images/Circles.png' width={374} height={350} alt="" />
             </div>
 
 
@@ -78,7 +78,7 @@ export default function Section6() {
                         solution for your industry.</h1>
 
 
-                    <div className='sM;flex gap-x-6'>
+                    <div className='sm:flex gap-x-6'>
                         <div className='mt-28'>
                             <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-2'>CONTACT US</button>
                         </div>
