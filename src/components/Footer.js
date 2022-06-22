@@ -6,11 +6,11 @@ export default function Footer() {
         <>
             <div className='footer mt-28'>
 
-                <div className='container mx-auto flex justify-between '>
+                <div className='container mx-auto md:flex justify-between '>
                     <div className='pt-32 pl-16'>
                         <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-2'>GET IN TOUCH</button>
                     </div>
-                    <div className='flex gap-x-8 pt-32 text-white'>
+                    <div className='px-5 md:px-0 sm:   flex gap-x-8 pt-32 text-white'>
                         <div className=''>
                             <span>EXPLORE</span>
                             <ul className='list-none pt-4'>
@@ -31,7 +31,7 @@ export default function Footer() {
 
 
 
-                        <div className=''>
+                        <div className='sm:block hidden'>
                             <span>LOCATIONS</span>
                             <ul className='list-none pt-4'>
                                 <li className='pt-1'>Asia</li>
@@ -93,7 +93,7 @@ export default function Footer() {
 
             <div className=''>
 
-                <div className='pl-16 flex gap-x-32  container mx-auto'>
+                <div className='sm:pt-12 md:pl-16 text-center sm:text-center md:text-center lg:text-right md:flex gap-x-32  container mx-auto'>
                     <div className=' text-white'>
                         <h1>copyright © 2021 StellarStack All right reserved</h1>
                     </div>
