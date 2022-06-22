@@ -7,8 +7,7 @@ export default function Header() {
     return (
 
         <div className="bg-[#0d0d0d] pt-8 pb-4">
-            <div className="md
-            :flex">
+            <div className="md:flex">
 
                 <div className="text-center sm:w-[50%]">
                     <Image src='/images/LOGO TEXT.png' width={152} height={22} alt="" />

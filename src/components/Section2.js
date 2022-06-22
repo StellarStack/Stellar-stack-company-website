@@ -36,7 +36,7 @@ export default function Section2() {
                             <div className="sm:mt-0 mt-12">
                                 <div className=' pt-12 px-8 rounded-xl  border-[0.5px] border-black pb-3 '>
                                     <div className='px-4'>
-                                        <Image src='/images/image 12.png' width={325} height={325} alt="" />
+                                        <Image src='/images/image12.png' width={325} height={325} alt="" />
                                     </div>
                                     <div className=''>
                                         <h1 className='font-semibold text-[18px]'>Web Designing</h1>
