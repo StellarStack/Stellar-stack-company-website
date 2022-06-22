@@ -13,7 +13,7 @@ export default function Section5() {
                         implementation stories.</h1>
                 </div>
 
-                <div className='pt-20'>
+                <div className='pt-20 container mx-auto'>
                     <Image src='/images/Line.png' width={1532.02} height={10} alt="" />
                 </div>
 
@@ -28,7 +28,7 @@ export default function Section5() {
                     </div>
                 </div>
 
-                <div className='mt-28'>
+                <div className='mt-28 container mx-auto'>
                     <Image src='/images/Line.png' width={1532.02} height={10} alt="" />
                 </div>
             </div>
