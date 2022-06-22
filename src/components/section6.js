@@ -18,16 +18,16 @@ export default function Section6() {
 
                 <div className="px-8 sm:px-0 pl-12 grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 mx-auto gap-x-7 pt-12 md:px-48 ">
                     <div className=''>
-                    <Image src='/images/SCTE.png' width={374} height={350} alt="" />
+                        <Image src='/images/SCTE.png' width={374} height={350} alt="" />
                     </div>
 
                     <div className=''>
-                    <Image src='/images/ZIPLINE.png' width={374} height={350} alt="" />
+                        <Image src='/images/ZIPLINE.png' width={374} height={350} alt="" />
                     </div>
 
 
                     <div className=''>
-                    <Image src='/images/NGROK.png' width={374} height={350} alt="" />
+                        <Image src='/images/NGROK.png' width={374} height={350} alt="" />
                     </div>
                     <div className="">
 
@@ -40,16 +40,16 @@ export default function Section6() {
 
                 <div className=" pl-12 sm:pl-0 grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 mx-auto gap-x-7 pt-12 md:px-48 ">
                     <div className=''>
-                    <Image src='/images/LADS TECH.png' width={374} height={350} alt="" />
+                        <Image src='/images/LADS TECH.png' width={374} height={350} alt="" />
                     </div>
 
                     <div className=''>
-                    <Image src='/images/PREMIER ORTHO.png' width={374} height={350} alt="" />
+                        <Image src='/images/PREMIER ORTHO.png' width={374} height={350} alt="" />
                     </div>
 
 
                     <div className=''>
-                    <Image src='/images/Kabo.png' width={374} height={350} alt="" />
+                        <Image src='/images/Kabo.png' width={374} height={350} alt="" />
                     </div>
                     <div className="">
 
@@ -59,14 +59,14 @@ export default function Section6() {
 
                 <div className=' pl-16 sm:pl-0 sm:flex md:justify-center pt-3'>
                     <div className=''>
-                    <Image src='/images/PROFIT CURVE.png' width={374} height={350} alt="" />
+                        <Image src='/images/PROFIT CURVE.png' width={374} height={350} alt="" />
                     </div>
                     <div className=''></div>
                 </div>
             </div>
 
             <div className='sm:block hidden '>
-            <Image src='/images/Circles.png' width={374} height={350} alt="" />
+                <Image src='/images/Circles.png' width={374} height={350} alt="" />
             </div>
 
 
@@ -93,7 +93,7 @@ export default function Section6() {
                 </div>
             </div>
 
-           
+
 
         </>
     )

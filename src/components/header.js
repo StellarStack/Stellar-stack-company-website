@@ -7,7 +7,8 @@ export default function Header() {
     return (
 
         <div className="bg-[#0d0d0d] pt-8 pb-4">
-            <div className="container mx-auto  sm:flex">
+            <div className="md
+            :flex">
 
                 <div className="text-center sm:w-[50%]">
                     <Image src='/images/LOGO TEXT.png' width={152} height={22} alt="" />
@@ -20,7 +21,7 @@ export default function Header() {
                     <span className='text-white px-3'>Contact us</span>
                 </div>
 
-                {/* <div className='w-[20%] flex'>
+                 <div className='md:w-[35%] pt-12 md:pt-0 md:flex'>
                     <form className="flex items-center">
                         <label htmlFor="simple-search" className="sr-only">Search</label>
                         <div className="relative w-[250px]">
@@ -32,7 +33,7 @@ export default function Header() {
                             <input type="text" id="simple-search" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-xl p-1 focus:ring-blue-500 focus:border-blue-500 block w-full pl-10   dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                         </div>
                     </form>
-                </div> */}
+                </div> 
             </div>
         </div>
 

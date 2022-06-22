@@ -63,7 +63,7 @@ export default function Section1() {
                 </div>
 
                 <div className='mt-44 w-[100%]'>
-                    <div className= 'px-12 sm:px-0 sm:ml-[100.03px]  tracking-tighter'>
+                    <div className='px-12 sm:px-0 sm:ml-[100.03px]  tracking-tighter'>
                         <span className='text-[#0399DA] font-semibold '>02. OUR SERVICES</span>
                         <h1 className='text-[40px] sm:text-[54px] sm:leading-[60px] font-semibold pt-8'>StellarStack techstack,<br></br>
                             smart and innovative.</h1>
@@ -71,8 +71,8 @@ export default function Section1() {
                 </div>
 
                 <div className='pt-[200px]  container mx-auto'>
-                <Image src='/images/Line.png' width={1532} height={10} alt="" />
-                    </div>
+                    <Image src='/images/Line.png' width={1532} height={10} alt="" />
+                </div>
             </div>
 
 
