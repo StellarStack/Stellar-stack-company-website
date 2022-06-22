@@ -29,7 +29,7 @@ export default function Section5() {
                 </div>
 
                 <div className='mt-28 container mx-auto'>
-                    <Image src='/images/Line.png' width={1532.02} height={10} alt="" />
+                    <Image src='/images/Line3.png' width={1532.02} height={10} alt="" />
                 </div>
             </div>
         </>

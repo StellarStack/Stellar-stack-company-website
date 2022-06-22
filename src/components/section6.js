@@ -16,7 +16,7 @@ export default function Section6() {
                     </div>
                 </div>
 
-                <div className="px-8 sm:px-0 grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 mx-auto gap-x-7 pt-12 md:px-48 ">
+                <div className="px-8 sm:px-0 pl-12 grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 mx-auto gap-x-7 pt-12 md:px-48 ">
                     <div className=''>
                     <Image src='/images/SCTE.png' width={374} height={350} alt="" />
                     </div>
@@ -38,7 +38,7 @@ export default function Section6() {
 
 
 
-                <div className=" px-8 sm:px-0   grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 mx-auto gap-x-7 pt-12 md:px-48 ">
+                <div className=" pl-12 sm:pl-0 grid grid-cols-1 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-3 mx-auto gap-x-7 pt-12 md:px-48 ">
                     <div className=''>
                     <Image src='/images/LADS TECH.png' width={374} height={350} alt="" />
                     </div>
@@ -57,7 +57,7 @@ export default function Section6() {
 
                 </div>
 
-                <div className='sm:flex justify-center pt-3'>
+                <div className=' pl-16 sm:pl-0 sm:flex md:justify-center pt-3'>
                     <div className=''>
                     <Image src='/images/PROFIT CURVE.png' width={374} height={350} alt="" />
                     </div>
@@ -65,7 +65,7 @@ export default function Section6() {
                 </div>
             </div>
 
-            <div className=' '>
+            <div className='sm:block hidden '>
             <Image src='/images/Circles.png' width={374} height={350} alt="" />
             </div>
 
@@ -80,12 +80,12 @@ export default function Section6() {
 
                     <div className='sm:flex gap-x-6'>
                         <div className='mt-28'>
-                            <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-2'>CONTACT US</button>
+                            <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>CONTACT US</button>
                         </div>
 
 
                         <div className=' mt-8 sm:mt-28'>
-                            <button className='border border-black   text-[16px] font-medium rounded-xl px-6 py-2'>VIEW SOLUTION</button>
+                            <button className='border border-black   text-[16px] font-medium rounded-xl px-6 py-3'>VIEW SOLUTION</button>
                         </div>
 
 

@@ -8,9 +8,9 @@ export default function Footer() {
 
                 <div className='container mx-auto md:flex justify-between '>
                     <div className='pt-32 pl-16'>
-                        <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-2'>GET IN TOUCH</button>
+                        <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>GET IN TOUCH</button>
                     </div>
-                    <div className='px-5 md:px-0 sm:   flex gap-x-8 pt-32 text-white'>
+                    <div className='px-12    md:px-0  flex gap-x-8 pt-32 text-white'>
                         <div className=''>
                             <span>EXPLORE</span>
                             <ul className='list-none pt-4'>
@@ -31,7 +31,7 @@ export default function Footer() {
 
 
 
-                        <div className='sm:block hidden'>
+                        <div className=' hidden sm:block'>
                             <span>LOCATIONS</span>
                             <ul className='list-none pt-4'>
                                 <li className='pt-1'>Asia</li>
@@ -93,7 +93,7 @@ export default function Footer() {
 
             <div className=''>
 
-                <div className='sm:pt-12 md:pl-16 text-center sm:text-center md:text-center lg:text-right md:flex gap-x-32  container mx-auto'>
+                <div className='pt-12 sm:pt-12 md:pl-16 text-center sm:text-center md:text-center lg:text-right md:flex gap-x-32  container mx-auto'>
                     <div className=' text-white'>
                         <h1>copyright © 2021 StellarStack All right reserved</h1>
                     </div>
@@ -109,8 +109,8 @@ export default function Footer() {
                     </div>
                 
                 </div>
-                <div className=' container px-12 mx-auto pt-2' >
-                    <Image src='/images/line.png' width={1341} height={10}  alt=''/>
+                <div className=' container pl-14 mx-auto pt-2' >
+                    <Image src='/images/Line4.png' width={1341} height={10}  alt=''/>
                 </div>
                 </div>
             </div>
