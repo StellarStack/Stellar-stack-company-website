@@ -19,7 +19,7 @@ export default function Section5() {
 
                 <div className='md:flex gap-x-12'>
                     <div className='md:w-[50%] pt-24'>
-                        <h1 className='text-[22px] pl-12 md:pl-28'>
+                        <h1 className='text-[22px] px-12 md:px-28'>
                             We have worked with number of clients,<br></br> describing and executing the plans deliberately.
                         </h1>
                     </div>

@@ -1,4 +1,3 @@
-import myimg1 from '../../public/images/LOGO TEXT.png'
 import Image from 'next/image'
 import React from 'react'
 
@@ -6,21 +5,21 @@ import React from 'react'
 export default function Header() {
     return (
 
-        <div className="bg-[#0d0d0d] pt-8 pb-4">
-            <div className="md:flex">
+        <div className="bg-[#0d0d0d] pt-8 pb-4 ">
+            <div className="md:flex ">
 
                 <div className="text-center sm:w-[50%]">
                     <Image src='/images/LOGO TEXT.png' width={152} height={22} alt="" />
                 </div>
 
-                <div className=' sm:w-[60%]'>
+                <div className=' sm:w-[60%] md:block hidden'>
                     <span className='text-white px-3'>Home</span>
                     <span className='text-white px-3'>Services</span>
                     <span className='text-white px-3'>About us</span>
                     <span className='text-white px-3'>Contact us</span>
                 </div>
 
-                 <div className='md:w-[35%] pt-12 md:pt-0 md:flex'>
+                 <div className='md:w-[35%] pt-12 md:pt-0 md:flex  md:block hidden '>
                     <form className="flex items-center">
                         <label htmlFor="simple-search" className="sr-only">Search</label>
                         <div className="relative w-[250px]">

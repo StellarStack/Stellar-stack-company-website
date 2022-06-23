@@ -8,7 +8,7 @@ export default function Section1() {
         <>
             <div className=' mt-12 container mx-auto max-w-[1400px]'>
                 <div className='ml-10 md:ml-[100.03px]  tracking-tighter'>
-                    <span className='text-[#0399DA] font-semibold '>01. ABOUT US</span>
+                    <span className='text-[#0399DA]  font-semibold '>01. ABOUT US</span>
                     <h1 className='text-[40px] md:text-[50px] sm:leading-[60px] font-semibold pt-6'>StellarStack enables clients to manage<br></br>
                         digital identity by providing them<br></br> eminent services.</h1>
                 </div>
@@ -19,7 +19,7 @@ export default function Section1() {
                         <Image src='/images/ImageCircles.png' width={680} height={635} alt="" />
                     </div>
 
-                    <div className='pl-12 md:pl-0 md:w-[60%]'>
+                    <div className='px-12 md:px-0 md:w-[60%]'>
                         <h1 className='text-[26px] font-semibold leading-[37px] pt-28'>Since 2018, StellarStack has been helping organizations<br></br> worldwide get reliable  websites  without any fuss. </h1>
                         <h1 className='text-[19px] font-medium leading-[29px] pt-6 '>Businesses, Software firms, Design Studios and Countless customers have<br></br> experienced how StellarStack can help them become more efficient</h1>
 
@@ -37,7 +37,7 @@ export default function Section1() {
                             </div>
                         </div>
 
-                        <div className=' md:flex gap-x-2  '>
+                        <div className=' flex gap-x-2  '>
                             <div className=''>
                                 <svg width="10" height="88" viewBox="0 0 14 88" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <line x1="7.44043" x2="7.44043" y2="88" stroke="black" />
@@ -62,15 +62,15 @@ export default function Section1() {
 
                 </div>
 
-                <div className='mt-44 w-[100%]'>
+                <div className='pt-20 md:mt-44 w-[100%]'>
                     <div className='px-12 sm:px-0 sm:ml-[100.03px]  tracking-tighter'>
                         <span className='text-[#0399DA] font-semibold '>02. OUR SERVICES</span>
-                        <h1 className='text-[40px] sm:text-[54px] sm:leading-[60px] font-semibold pt-8'>StellarStack techstack,<br></br>
+                        <h1 className='text-[40px] sm:text-[54px] leading-8 sm:leading-[60px] font-semibold pt-8'>StellarStack techstack,<br></br>
                             smart and innovative.</h1>
                     </div>
                 </div>
 
-                <div className='pt-[200px]  container mx-auto'>
+                <div className=' pt-12 md:pt-[200px]  container mx-auto'>
                     <Image src='/images/Line.png' width={1532} height={10} alt="" />
                 </div>
             </div>

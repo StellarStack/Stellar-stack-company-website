@@ -27,12 +27,13 @@ a {
   background-image: url(/images/FooterImage.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .hero{
   background-image: url(/images/Hero.png);
   background-size: cover;
-
+background-position: center;
   background-repeat: no-repeat;
 }
 
