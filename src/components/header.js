@@ -19,7 +19,7 @@ export default function Header() {
                     <span className='text-white px-3'>Contact us</span>
                 </div>
 
-                 <div className='md:w-[35%] pt-12 md:pt-0 md:flex'>
+                 <div className='md:w-[35%] pt-12 md:pt-0 md:flex '>
                     <form className="flex items-center">
                         <label htmlFor="simple-search" className="sr-only">Search</label>
                         <div className="relative w-[250px]">
