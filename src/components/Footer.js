@@ -4,13 +4,13 @@ import Image from 'next/image'
 export default function Footer() {
     return (
         <>
-            <div className='footer mt-28'>
+            <div className='footer mt-28 '>
 
-                <div className='container mx-auto md:flex justify-between '>
-                    <div className='pt-32 pl-16'>
+                <div className='container mx-auto md:flex justify-between  '>
+                    <div className='pt-12 md:pt-32 pl-16'>
                         <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>GET IN TOUCH</button>
                     </div>
-                    <div className='px-12    md:px-0  flex gap-x-8 pt-32 text-white'>
+                    <div className='px-16 md:px-0 justify-center  flex gap-x-8 pt-12 md:pt-32 text-white'>
                         <div className=''>
                             <span>EXPLORE</span>
                             <ul className='list-none pt-4'>
@@ -78,15 +78,8 @@ export default function Footer() {
                                     </clipPath>
                                 </defs>
                             </svg>
-
-
-
-
                         </div>
-
-
                     </div>
-
                 </div>
 
 
