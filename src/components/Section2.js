@@ -14,7 +14,7 @@ export default function Section2() {
                         </div>
                     </div>
 
-                    <div className="md:w-[50%] md:pt-12 sm:pt-12 lg:pt-0 pt-12">
+                    <div className="lg:w-[50%] md:pt-12 sm:pt-12 lg:pt-0 pt-12">
                         <h1 className='text-[24px] '>Featured Sevices</h1>
                         <div className="sm:flex gap-x-12 mb-12 mt-8 sm:mt-2">
                             <div className="">
