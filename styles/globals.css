@@ -36,4 +36,27 @@ a {
 background-position: center;
   background-repeat: no-repeat;
 }
+@font-face {
+  font-family:Red Hat Display;
+  src: url('../src/components/assets/RedHatDisplay-Black.ttf');
+  src: url('../src/components/assets/RedHatDisplay-Bold.ttf');
+  src: url('../src/components/assets/RedHatDisplay-ExtraBold.ttf');
+  src: url('../src/components/assets/RedHatDisplay-Light.ttf');
+  src: url('../src/components/assets/RedHatDisplay-Medium.ttf');
+  src: url('../src/components/assets/RedHatDisplay-Regular.ttf');
+  src: url('../src/components/assets/RedHatDisplay-Regular.ttf');
+   src: url('../src/components/assets/RedHatDisplay-Regular.ttf');
+}
+   h1, h2,h3 {
+  font-family: Red Hat Display ;
+  font-weight: 400;
+  }
 
+   span{
+    font-family: Red Hat Display ;
+    font-weight: 400;
+   }
+   li{
+    font-family: Red hat Display;
+    font-weight: 300;
+   }

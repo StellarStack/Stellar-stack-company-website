@@ -5,7 +5,7 @@ import React from 'react'
 export default function Header() {
     return (
 
-        <div className="bg-[#0d0d0d] pt-8 pb-4 ">
+        <div className="bg-[#0d0d0d] pt-8 pb-4 header">
             <div className="md:flex ">
 
                 <div className="text-center sm:w-[50%]">
