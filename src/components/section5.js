@@ -9,7 +9,7 @@ export default function Section5() {
 
                 <div className='ml-6 md:ml-[100.03px]  tracking-tighter container mx-auto'>
                     <span className='text-[#0399DA] font-semibold '>04. FEATURED CASE STUDY</span>
-                    <h1 className='text-[40px] sm:text-[54px] leading-[60px] font-semibold pt-1'>Our successful <br></br>
+                    <h1 className='text-[40px] sm:text-[54px] leading-[60px] font-semibold pt-1 px-4'>Our successful <br></br>
                         implementation stories.</h1>
                 </div>
 
