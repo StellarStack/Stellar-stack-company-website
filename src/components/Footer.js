@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Footer() {
     return (
         <>
-            <div className='footer mt-28 '>
+            <div className='footer mt-28 overflow-x-hidden'>
 
                 <div className='container mx-auto md:flex justify-between  '>
                     <div className='pt-12 md:pt-32 pl-16'>

@@ -6,10 +6,10 @@ export default function Section6() {
     return (
         <>
 
-            <div className="container mx-auto pt-24 overflow-hidden max-w-[1400px]">
+            <div className="container mx-auto pt-24 overflow-hidden max-w-[1400px] overflow-y-hidden">
 
                 <div className="">
-                    <div className='px-8 md:ml-[100.03px]  tracking-tighter container mx-auto'>
+                    <div className='px-8 lg:px-0 md:px-0 md:ml-[100.03px]  tracking-tighter container mx-auto'>
                         <span className='text-[#0399DA] font-semibold '>05. NEWS</span>
                         <h1 className='text-[36px] md:text-[54px] md:leading-[60px] font-semibold pt-1'>Explore Clients that we’ve <br></br>
                             worked for</h1>
@@ -24,8 +24,6 @@ export default function Section6() {
                     <div className=' flex justify-center my-2'>
                         <Image src='/images/ZIPLINE.png' width={374} height={350} alt="" />
                     </div>
-
-
                     <div className=' flex justify-center my-2'>
                         <Image src='/images/NGROK.png' width={374} height={350} alt="" />
                     </div>
@@ -63,7 +61,6 @@ export default function Section6() {
                    
                 </div>
             </div>
-
             <div className='sm:block hidden '>
                 <Image src='/images/Circles.png' width={374} height={350} alt="" />
             </div>
@@ -71,7 +68,7 @@ export default function Section6() {
 
             <div className='mt-28 container mx-auto '>
 
-                <div className='  px-12 sm:ml-[100.03px]  tracking-tighter '>
+                <div className=' sm:px-12 lg:px-[68px] sm:ml-[100.03px]  tracking-tighter '>
                     <span className='text-[#0399DA] font-semibold '>06. GET IN TOUCH</span>
                     <h1 className='text-[36px] md:text-[54px] sm:leading-[60px] font-semibold pt-1'>Let’s talk! We have a perfect <br></br>
                         solution for your industry.</h1>
