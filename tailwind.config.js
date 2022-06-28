@@ -1,14 +1,10 @@
 module.exports = {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./src/components/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./src/**/*.{html,js}",
+
+  '*.{html,js}'], //like this
+
   theme: {
-    extend: {
-        backgroundImage: (theme) => ({
-          myfirstimage: "url('./public/images/img41.webp')"
-        }),
-    }
+    extend: {},
   },
   plugins: [],
 }
