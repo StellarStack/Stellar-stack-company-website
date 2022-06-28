@@ -1,12 +1,10 @@
-
-
 import Image from 'next/image'
 
 export default function Section4() {
     return (
         <>
 
-            <div className='container mx-auto pt-20 xl:pt-[324px] max-w-[1400px]'>
+            <div className='container mx-auto pt-20 xl:pt-[324px] max-w-[1400px] overflow-x-hidden'>
                 <div className='flex  justify-center xl:justify-end  px-12 '>
                     <div className='lg:w-[55%]'>
                         <div className='md:block  hidden'>
@@ -84,4 +82,6 @@ export default function Section4() {
             </div>
         </>
     )
+
 }
+

@@ -8,8 +8,8 @@ export default function Section1() {
         <>
             <div className=' mt-12 container mx-auto max-w-[1400px]'>
                 <div className='ml-10 md:ml-[100.03px]  tracking-tighter'>
-                    <span className='text-[#0399DA]  font-semibold '>01. ABOUT US</span>
-                    <h1 className='text-[40px] md:text-[50px] sm:leading-[60px] font-semibold pt-6'>StellarStack enables clients to manage<br></br>
+                    <span className='text-[#0399DA]  font-bold '>01. ABOUT US</span>
+                    <h1 className='text-[40px] md:text-[50px] sm:leading-[60px] font-bold pt-6'>StellarStack enables clients to manage<br></br>
                         digital identity by providing them<br></br> eminent services.</h1>
                 </div>
                 <div className='md:flex gap-x-8'>
