@@ -12,7 +12,7 @@ export default function Hero() {
                     </div>
 
                     <div className=' md:w-[90%] text-center md:block hidden pl-36'>
-                      <a href="Home">  <span className='text-white px-3'>Home</span></a>
+                      <a href="index">  <span className='text-white px-3'>Home</span></a>
                         <span className='text-white px-3'>Services</span>
                         <span className='text-white px-3'>About us</span>
                         <span className='text-white px-3'>Contact us</span>
