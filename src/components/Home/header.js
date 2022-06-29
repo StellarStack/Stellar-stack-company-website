@@ -18,7 +18,7 @@ export default function Header() {
                       <a href="Home">  <span className='text-white px-3'>Home</span></a>
                         <span className='text-white px-3'>Services</span>
                         <span className='text-white px-3'>About us</span>
-                        <span className='text-white px-3'>Contact us</span>
+                      <a href='Contactus'><span className='text-white px-3'>Contact us</span></a>
                     </div>
 
                     <div className='lg:w-[20%] pt-12 md:pt-0 md:flex  md:block hidden '>
