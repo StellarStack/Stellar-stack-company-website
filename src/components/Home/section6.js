@@ -11,7 +11,7 @@ export default function Section6() {
                 <div className="">
                     <div className='px-8 lg:px-0 md:px-0 md:ml-[100.03px]  tracking-tighter container mx-auto'>
                         <span className='text-[#0399DA] font-semibold '>05. NEWS</span>
-                        <h1 className='text-[36px] md:text-[54px] md:leading-[60px] font-semibold pt-1'>Explore Clients that we’ve <br></br>
+                        <h1 className='text-[36px] md:text-[54px] md:leading-[50px] font-semibold pt-4'>Explore Clients that we’ve <br></br>
                             worked for</h1>
                     </div>
                 </div>
@@ -69,20 +69,20 @@ export default function Section6() {
             <div className='mt-28 container mx-auto '>
 
                 <div className=' sm:px-12 lg:px-[68px] sm:ml-[100.03px]  tracking-tighter '>
-                    <span className='text-[#0399DA] font-semibold '>06. GET IN TOUCH</span>
-                    <h1 className='text-[36px] md:text-[54px] sm:leading-[60px] font-semibold pt-1'>Let’s talk! We have a perfect <br></br>
+                    <span className='text-[#0399DA] font-semibold mx-10 sm:mx-10 md:mx-0 lg:mx-0'>06. GET IN TOUCH</span>
+                    <h1 className='text-[36px] mx-10 sm:mx-10 md:mx-0 lg:mx-0 md:text-[54px] sm:leading-[60px] font-semibold pt-1'>Let’s talk! We have a perfect <br></br>
                         solution for your industry.</h1>
 
 
                     <div className='sm:flex gap-x-6'>
-                        <div className='mt-28'>
+                        <div className='mt-20 ml-10 sm:ml-10 md:ml-0 lg:ml-0'>
                            <a href='Contactus'>
                            <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>CONTACT US</button>
                            </a> 
                         </div>
 
 
-                        <div className=' mt-8 sm:mt-28'>
+                        <div className=' mt-8 sm:mt-20 ml-10 sm:ml-2 md:ml-0 lg:ml-0'>
                             <button className='border border-black   text-[16px] font-medium rounded-xl px-6 py-3'>VIEW SOLUTION</button>
                         </div>
 

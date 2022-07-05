@@ -12,18 +12,18 @@ export default function Header() {
 
                     <div className="container mx-auto md:flex ">
 
-                        <div className="text-center w-full md:w-[20%] ">
+                        <div className="text-center">
                             <Image src='/images/StellarStack.png' width={184} height={42} alt="" />
                         </div>
 
                         <div className=' md:w-[90%] text-center md:block hidden pl-36'>
-                            <a href="Home"><span className='px-3 text-white '>Home</span></a>
-                            <span className='px-3 text-white'>Services</span>
-                            <a href="Aboutus"><span className='px-3 text-white'>About us</span></a>
-                            <a href='Contactus'><span className='px-3 text-white'>Contact us</span></a>
+                            <a href="Home"><span className='px-3 text-white hover:text-[#0399DA]'>Home</span></a>
+                            <span className='px-3 text-white hover:text-[#0399DA] cursor-pointer'>Services</span>
+                            <a href="Aboutus"><span className='px-3 text-white hover:text-[#0399DA]'>About us</span></a>
+                            <a href='Contactus'><span className='px-3 text-white hover:text-[#0399DA]'>Contact us</span></a>
                         </div>
 
-                        <div className='lg:w-[20%] pt-12 md:pt-0 md:flex  md:block hidden '>
+                        {/* <div className='lg:w-[20%] pt-12 md:pt-0 md:flex  md:block hidden '>
                             <form className="flex items-center">
                                 <label htmlFor="simple-search" className="sr-only">Search</label>
                                 <div className="relative w-[250px]">
@@ -35,7 +35,7 @@ export default function Header() {
                                     <input type="text" id="simple-search" className="block w-full p-1 pl-10 text-sm text-gray-900 border border-gray-300 bg-gray-50 rounded-xl focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                                 </div>
                             </form>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
