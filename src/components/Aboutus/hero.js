@@ -58,7 +58,7 @@ export default function Hero() {
 
                     <div className="md:flex gap-x-16 pt-12 sm:pt-[200px] ">
                         <div className="ml-12 lg:ml-[180px] mt-3 ">
-                            <h1 className="text-white">ABOUT<span className="text-[#0399DA] pl-1">Stellar</span>Stack </h1>
+                            <h1 className="text-white">ABOUT<span className=" pl-1">StellarStack </span></h1>
                         </div>
                         <div className=" md:flex gap-x-6">
                             <div className=" px-8 pl-4">

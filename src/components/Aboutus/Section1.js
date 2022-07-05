@@ -16,12 +16,12 @@ export default function Section1() {
                 </div>
 
                 <div className='container  mx-auto mt-12  lg:flex lg:justify-start '>
-                    <div className='hidden  lg:relative lg:block '>
+                    {/* <div className='hidden  lg:relative lg:block '>
                         <Image src='/images/ImageCircles.png' width={550.17} height={550.73} alt="" />
-                    </div>
+                    </div> */}
 
-                    <div className=' lg:absolute lg:left-[450px]  w-[100%]  '>
-                        <Image className="" src='/images/unsplash.png' width={821} height={380} alt="" />
+                    <div className=' w-[100%]  '>
+                        <Image className="  " src='/images/unsplash.png' width={821} height={380} alt="" />
                         </div>
                         </div>
                        
