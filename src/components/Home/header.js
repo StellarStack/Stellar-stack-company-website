@@ -8,20 +8,20 @@ export default function Header() {
 
         <div className="bg-[#0d0d0d] pt-8 pb-4 header">
           
-                <div className="md:flex container mx-auto ">
+                <div className="md:flex container mx-auto">
 
-                    <div className="text-center w-full md:w-[10%] ">
+                    <div className="  ">
                         <Image src='/images/LOGO TEXT.png' width={184} height={42} alt="" />
                     </div>
 
-                    <div className=' md:w-[90%] text-center md:block hidden pl-36'>
-                      <a href="index"><span className='text-white px-3'>Home</span></a>
-                        <span className='text-white px-3'>Services</span>
-                      <a href='Aboutus'><span className='text-white px-3'>About us</span></a> 
-                      <a href='Contactus'><span className='text-white px-3'>Contact us</span></a>
+                    <div className=' text-center md:block hidden w-full justfy-center '>
+                      <a href="index"><span className='text-white hover:text-[#0399DA] px-3'>Home</span></a>
+                        <span className='text-white px-3 cursor-pointer hover:text-[#0399DA]'>Services</span>
+                      <a href='Aboutus'><span className='text-white px-3 hover:text-[#0399DA]'>About us</span></a> 
+                      <a href='Contactus'><span className='text-white px-3 hover:text-[#0399DA]'>Contact us</span></a>
                     </div>
 
-                    <div className='lg:w-[20%] pt-12 md:pt-0 md:flex  md:block hidden  '>
+                    {/* <div className='lg:w-[20%] pt-12 md:pt-0 md:flex  md:block hidden  '>
                         <form className="flex items-center">
                             <label htmlFor="simple-search" className="sr-only">Search</label>
                             <div className="relative w-[250px]">
@@ -33,7 +33,7 @@ export default function Header() {
                                 <input type="text" id="simple-search" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-xl p-1 focus:ring-blue-500 focus:border-blue-500 block w-full pl-10   dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
                             </div>
                         </form>
-                    </div>
+                    </div> */}
                 </div>
                 </div>
 
