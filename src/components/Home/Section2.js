@@ -4,7 +4,7 @@ export default function Section2() {
     return (
         <>
 
-            <div className="container mx-auto max-w-[1400px] overflow-x-hidden">
+            <div className="container mx-auto max-w-[1400px] ">
                 <div className="container mx-auto pt-10 lg:flex lg:px-0 md:px-12 sm:px-12 px-12">
                     <div className=" md:w-[50%]">
                         <p className="text-[20px]">Check out our full line of our services, that we<br></br> provide in the domain of Information<br></br> Technology globally.
@@ -52,14 +52,14 @@ export default function Section2() {
                 </div>
 
 
-                <div className='container mx-auto  tracking-tighter flex justify-end px-8 md:px-[86px] pt-32'>
+                {/* <div className='container mx-auto  tracking-tighter flex justify-end px-8 md:px-[86px] pt-32'>
                     <div>
                         <span className='text-[#0399DA] font-semibold '>03. WHY StellarStack</span>
                         <h1 className='text-[38px] sm:text-[46px] sm:leading-[60px] font-semibold pt-6'>With StellarStack, you use...</h1>
                     </div>
 
 
-                </div>
+                </div> */}
             </div>
 
 

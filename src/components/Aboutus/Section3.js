@@ -57,7 +57,7 @@ export default function Section3() {
                 <div className="flex justify-end pr-16 mt-20">
                     <div></div>
                     <div className="">
-                        <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>GET IN TOUCH</button>
+                      <a href="Contactus"><button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>GET IN TOUCH</button></a>
                     </div>
                 </div>
             </div>

@@ -4,14 +4,16 @@ import Image from 'next/image'
 export default function Footer() {
     return (
         <>
-            <div className='footer sm:mt-44 '>
+            <div className='footer mt-28'>
 
                 <div className='container justify-between mx-auto md:flex '>
                     <div className='pt-12 pl-16 md:pt-32'>
-                        <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>GET IN TOUCH</button>
+                       <a href='Contactus'> 
+                       <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>GET IN TOUCH</button>
+                       </a>
                     </div>
                     <div className='flex justify-center px-16 pt-12 text-white md:px-0 gap-x-8 md:pt-32'>
-                        <div className=''>
+                        <div className='cursor-pointer'>
                             <span>EXPLORE</span>
                             <ul className='pt-4 list-none'>
                                 <li>Products</li>
@@ -20,28 +22,28 @@ export default function Footer() {
                             </ul>
                         </div>
 
-                        <div className=''>
+                        <div className=' cursor-pointer'>
                             <span>COMPANY</span>
                             <ul className='pt-4 list-none'>
                                 <li>About</li>
                                 <li className='pt-1'>News</li>
-                                <li className='pt-1'>Contact</li>
+                              <a href='Contactus'><li className='pt-1'>Contact</li></a>  
                             </ul>
                         </div>
 
 
 
-                        <div className='hidden sm:block'>
+                        <div className='hidden sm:block cursor-pointer'>
                             <span>LOCATIONS</span>
                             <ul className='pt-4 list-none'>
-                                <li className='pt-1'>Asia</li>
-                                <li className='pt-1'>Europe</li>
+                               <a href='Contactus'><li className='pt-1'>Asia</li></a>
+                               <a href='Contactus'><li className='pt-1'>Europe</li></a>
                             </ul>
                         </div>
 
 
-                        <div className=''>
-                            <span>SOCIALS</span>
+                        <div className='cursor-pointer'>
+                            <span className=''>SOCIALS</span>
 
                             <svg className='pt-4 pl-2' width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0_367_64)">
@@ -92,13 +94,13 @@ export default function Footer() {
                         </div>
 
 
-                        <div className='text-white '>
-                         <a href='Terms'><h1>Term’s & Conditions</h1></a>
+                        <div className='text-white cursor-pointer '>
+                           <a href='Terms'><button><h1>Term’s & Conditions</h1></button></a>
                         </div>
 
 
                         <div className='text-white '>
-                           <a href='Privacy'><h1>Privacy Policy</h1></a>
+                          <a href='Privacy'><h1>Privacy Policy</h1></a>  
                         </div>
 
                     </div>

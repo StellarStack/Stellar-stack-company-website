@@ -4,7 +4,7 @@ export default function Section4() {
     return (
         <>
 
-            <div className='container mx-auto pt-20 xl:pt-[324px] max-w-[1400px] '>
+            <div className='container mx-auto pt-20 lg:pt-[324px] max-w-[1400px] '>
                 <div className='flex  justify-center xl:justify-end  px-12 '>
                     <div className='lg:w-[55%]'>
                         <div className='md:block  hidden'>

@@ -13,7 +13,7 @@ export default function Footer() {
                        </a>
                     </div>
                     <div className='flex justify-center px-16 pt-12 text-white md:px-0 gap-x-8 md:pt-32'>
-                        <div className=''>
+                        <div className='cursor-pointer'>
                             <span>EXPLORE</span>
                             <ul className='pt-4 list-none'>
                                 <li>Products</li>
@@ -22,28 +22,28 @@ export default function Footer() {
                             </ul>
                         </div>
 
-                        <div className=''>
+                        <div className=' cursor-pointer'>
                             <span>COMPANY</span>
                             <ul className='pt-4 list-none'>
                                 <li>About</li>
                                 <li className='pt-1'>News</li>
-                                <li className='pt-1'>Contact</li>
+                              <a href='Contactus'><li className='pt-1'>Contact</li></a>  
                             </ul>
                         </div>
 
 
 
-                        <div className='hidden sm:block'>
+                        <div className='hidden sm:block cursor-pointer'>
                             <span>LOCATIONS</span>
                             <ul className='pt-4 list-none'>
-                                <li className='pt-1'>Asia</li>
-                                <li className='pt-1'>Europe</li>
+                               <a href='Contactus'><li className='pt-1'>Asia</li></a>
+                               <a href='Contactus'><li className='pt-1'>Europe</li></a>
                             </ul>
                         </div>
 
 
-                        <div className=''>
-                            <span>SOCIALS</span>
+                        <div className='cursor-pointer'>
+                            <span className=''>SOCIALS</span>
 
                             <svg className='pt-4 pl-2' width="40" height="40" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clipPath="url(#clip0_367_64)">
