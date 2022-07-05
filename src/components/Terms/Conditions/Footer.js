@@ -4,13 +4,11 @@ import Image from 'next/image'
 export default function Footer() {
     return (
         <>
-            <div className='footer mt-28'>
+            <div className='footer sm:mt-44 '>
 
                 <div className='container justify-between mx-auto md:flex '>
                     <div className='pt-12 pl-16 md:pt-32'>
-                       <a href='Contactus'> 
-                       <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>GET IN TOUCH</button>
-                       </a>
+                        <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>GET IN TOUCH</button>
                     </div>
                     <div className='flex justify-center px-16 pt-12 text-white md:px-0 gap-x-8 md:pt-32'>
                         <div className=''>
@@ -94,13 +92,13 @@ export default function Footer() {
                         </div>
 
 
-                        <div className='text-white cursor-pointer '>
-                           <a href='Terms'><button><h1>Term’s & Conditions</h1></button></a>
+                        <div className='text-white '>
+                         <a href='Terms'><h1>Term’s & Conditions</h1></a>
                         </div>
 
 
                         <div className='text-white '>
-                          <a href='Privacy'><h1>Privacy Policy</h1></a>  
+                           <a href='Privacy'><h1>Privacy Policy</h1></a>
                         </div>
 
                     </div>

@@ -59,14 +59,14 @@ background-position: center;
 
    h1, h2,h3 {
   font-family: Red Hat Display ;
-  font-weight: 400;
+  font-weight: 800;
   }
 
    span{
     font-family: Red Hat Display ;
     font-weight: 400;
    }
-   li{
+   p,li{
     font-family: Red hat Display;
     font-weight: 300;
    }
