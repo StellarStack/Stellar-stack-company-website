@@ -91,7 +91,7 @@ export default function Section1() {
 
                 <div className="md:flex gap-x-24 mt-28">
                     <div className="md:w-[40%] md:px-0 px-8">
-                        <Image src='/images/Imagecircles.png' width={600} height={600} alt='' />
+                        <Image src='/images/ImageCircles.png' width={600} height={600} alt='' />
 
                     </div>
 
