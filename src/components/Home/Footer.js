@@ -6,23 +6,25 @@ export default function Footer() {
         <>
             <div className='footer mt-28'>
 
-                <div className='container mx-auto md:flex justify-between  '>
-                    <div className='pt-12 md:pt-32 pl-16'>
-                        <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>GET IN TOUCH</button>
+                <div className='container justify-between mx-auto md:flex '>
+                    <div className='pt-12 pl-16 md:pt-32'>
+                       <a href='Contactus'> 
+                       <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>GET IN TOUCH</button>
+                       </a>
                     </div>
-                    <div className='px-16 md:px-0 justify-center  flex gap-x-8 pt-12 md:pt-32 text-white'>
+                    <div className='flex justify-center px-16 pt-12 text-white md:px-0 gap-x-8 md:pt-32'>
                         <div className=''>
                             <span>EXPLORE</span>
-                            <ul className='list-none pt-4'>
+                            <ul className='pt-4 list-none'>
                                 <li>Products</li>
                                 <li className='pt-1'>Solutions</li>
-                                <li className='pt-1'>Support</li>
+                                <a href='Support'><li className='pt-1'>Support</li></a>
                             </ul>
                         </div>
 
                         <div className=''>
                             <span>COMPANY</span>
-                            <ul className='list-none pt-4'>
+                            <ul className='pt-4 list-none'>
                                 <li>About</li>
                                 <li className='pt-1'>News</li>
                                 <li className='pt-1'>Contact</li>
@@ -31,9 +33,9 @@ export default function Footer() {
 
 
 
-                        <div className=' hidden sm:block'>
+                        <div className='hidden sm:block'>
                             <span>LOCATIONS</span>
-                            <ul className='list-none pt-4'>
+                            <ul className='pt-4 list-none'>
                                 <li className='pt-1'>Asia</li>
                                 <li className='pt-1'>Europe</li>
                             </ul>
@@ -86,23 +88,23 @@ export default function Footer() {
 
                 <div className=''>
 
-                    <div className='pt-12 sm:pt-12 md:pl-16 text-center sm:text-center md:text-center lg:text-right md:flex gap-x-32  container mx-auto'>
-                        <div className=' text-white'>
+                    <div className='container pt-12 mx-auto text-center sm:pt-12 md:pl-16 sm:text-center md:text-center lg:text-right md:flex gap-x-32'>
+                        <div className='text-white '>
                             <h1>copyright © 2021 StellarStack All right reserved</h1>
                         </div>
 
 
-                        <div className=' text-white'>
-                            <h1>Term’s & Conditions</h1>
+                        <div className='text-white cursor-pointer '>
+                           <a href='Terms'><button><h1>Term’s & Conditions</h1></button></a>
                         </div>
 
 
-                        <div className=' text-white'>
-                            <h1>Privacy Policy</h1>
+                        <div className='text-white '>
+                          <a href='Privacy'><h1>Privacy Policy</h1></a>  
                         </div>
 
                     </div>
-                    <div className=' container pl-14 mx-auto pt-2' >
+                    <div className='container pt-2 mx-auto pl-14' >
                         <Image src='/images/Line4.png' width={1341} height={10} alt='' />
                     </div>
                 </div>

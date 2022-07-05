@@ -17,13 +17,13 @@ export default function Section5() {
 
                 <div className='md:flex gap-x-12'>
                     <div className='md:w-[50%] pt-2'>
-                        <h1 className='text-[22px] px-12 md:px-28 font-extralight'>
+                        <p className='text-[18px] px-12 md:px-28 font-extralight'>
                             
                          We have worked with number of clients, describing and executing the plans deliberately. The undermentioned clients are the ones with whom we have worked and collaborated.Not only eminence in tasks, but one of our prime focus is also to coordinate with clients and execute tasks with a constructive attitude.We have the excellence of creating upstanding designs of novelty and firmly believe that these traits polish our competence.
 
 
 
-                        </h1>
+                        </p>
                     </div>
                     <div className='md:w-[50%] pt-20 sm:pt-20 md:pt-20 lg:pt-0 xl:pt-0'>
                         <Image src='/images/image 10.png' width={766} height={450} alt="" />

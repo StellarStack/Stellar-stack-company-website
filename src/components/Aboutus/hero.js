@@ -1,9 +1,10 @@
-/* eslint-disable react/no-unescaped-entities */
-import Image from "next/image"
+  /* eslint-disable react/no-unescaped-entities */
+  import Image from "next/image"
 
 export default function Hero() {
     return (
         <>
+      
             <div className="bg-white pt-8 pb-4 header Hero ">
                 <div className="md:flex container mx-auto ">
 
@@ -15,7 +16,7 @@ export default function Hero() {
                         <a href="index"><span className='text-white px-3'>Home</span></a>
                         <span className='text-white px-3'>Services</span>
                         <a href="Aboutus"><span className='text-white px-3'>About us</span></a>
-                        <span className='text-white px-3'>Contact us</span>
+                        <a href="Contactus"><span className='text-white px-3'>Contact us</span></a>
                     </div>
 
                     <div className='lg:w-[20%] pt-12 md:pt-0 md:flex  md:block hidden '>
@@ -45,33 +46,37 @@ export default function Hero() {
                         </svg>
                     </div>
                     <div className='pt-1'>
-                        <h1 className="text-[#0399DA] text-[14px]">CONTACT US</h1>
+                        <h1 className="text-[#0399DA] text-[14px]">ABOUT US</h1>
                     </div>
                 </div>
 
 
                 <div className="container mx-auto pt-8 sm:pt-36 pb-28">
-                    <div className="px-5 md:ml-[103px]">
-                        <h1 className="text-[60px] sm:text-[90px] text-white font-extrabold">Let's<span className="text-[#0399DA] font-extrabold pl-2">Talk.</span></h1>
+                    <div className="px-5 md:ml-[83px]">
+                        <h1 className="text-[60px] sm:text-[90px] text-white font-extrabold">Better Solutions<br></br> for a<span className="text-[#0399DA] font-extrabold pl-2 leading-5">Better World.</span></h1>
                     </div>
 
-                    <div className="md:flex pt-12 sm:pt-[200px] ">
-                        <div className="ml-12 lg:ml-[200px] mt-3 ">
-                            <h1 className="text-white">CONNECTING<span className="text-[#0399DA] pl-1">Stellar</span>Stack </h1>
+                    <div className="md:flex gap-x-16 pt-12 sm:pt-[200px] ">
+                        <div className="ml-12 lg:ml-[180px] mt-3 ">
+                            <h1 className="text-white">ABOUT<span className="text-[#0399DA] pl-1">Stellar</span>Stack </h1>
                         </div>
-                        <div className="md:ml-[240px] md:flex">
+                        <div className=" md:flex gap-x-6">
                             <div className=" px-8 pl-4">
                                 <Image src='/images/Line 18.png' width={279} height={1} alt="" />
                                 <h1 className="text-white font-semibold text-[12px]">01</h1>
-                                <h1 className="text-white font-semibold text-[12px]">Contact Form</h1>
+                                <h1 className="text-white font-semibold text-[12px]">Who We Are?</h1>
                             </div>
                             <div className="pl-4">
                                 <Image src='/images/Line 18.png' width={279} height={1} alt="" />
                                 <h1 className="text-white font-semibold text-[12px]">02</h1>
-                                <h1 className="text-white font-semibold text-[12px]">Office Location</h1>
+                                <h1 className="text-white font-semibold text-[12px]">Values  & Vision</h1>
                             </div>
+                            <div className=" px-8 pl-4">
+                                <Image src='/images/Line 18.png' width={279} height={1} alt="" />
+                                <h1 className="text-white font-semibold text-[12px]">01</h1>
+                                <h1 className="text-white font-semibold text-[12px]">Why Stellarstack?</h1>
+                            </div>                    
                         </div>
-
                     </div>
                 </div>
 
@@ -80,3 +85,5 @@ export default function Hero() {
 
     )
 }
+
+        

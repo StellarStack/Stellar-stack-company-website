@@ -7,10 +7,12 @@ export default function Section2() {
             <div className="container mx-auto max-w-[1400px] overflow-x-hidden">
                 <div className="container mx-auto pt-10 lg:flex lg:px-0 md:px-12 sm:px-12 px-12">
                     <div className=" md:w-[50%]">
-                        <h1 className="text-[20px]">Check out our full line of our services, that we<br></br> provide in the domain of Information<br></br> Technology globally.
-                        </h1>
+                        <p className="text-[20px]">Check out our full line of our services, that we<br></br> provide in the domain of Information<br></br> Technology globally.
+                        </p>
                         <div className='pt-8'>
+                          <a href='Contactus'>
                             <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>CONTACT US</button>
+                            </a>
                         </div>
                     </div>
 
@@ -24,7 +26,7 @@ export default function Section2() {
                                     </div>
                                     <div className=''>
                                         <h1 className='font-semibold text-[18px]'>Web Development</h1>
-                                        <h1 className='text-[14px] leading-tight'>Creating and providing on demand services to clients by new<br></br> technologies</h1>
+                                        <p className='text-[14px] leading-tight'>Creating and providing on demand services to clients by new<br></br> technologies</p>
                                     </div>
 
                                 </div>
@@ -36,11 +38,11 @@ export default function Section2() {
                             <div className="sm:mt-0 mt-12">
                                 <div className=' pt-12 px-9 rounded-xl  border-[0.5px] border-black pb-3 '>
                                     <div className='px-5'>
-                                        <Image src='/images/image12.png' width={325} height={300} alt="" />
+                                        <Image src='/images/image12.png' width={280} height={280} alt="" />
                                     </div>
                                     <div className=''>
                                         <h1 className='font-semibold text-[18px]'>Web Designing</h1>
-                                        <h1 className='text-[14px] leading-tight'>Web Designing Delivering user friendly<br></br> designs on demand to the clients and<br></br>companies.</h1>
+                                        <p className='text-[14px] leading-tight'>Web Designing Delivering user friendly<br></br> designs on demand to the clients and companies.</p>
                                     </div>
 
                                 </div>

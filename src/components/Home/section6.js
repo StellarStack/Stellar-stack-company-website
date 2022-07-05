@@ -76,7 +76,9 @@ export default function Section6() {
 
                     <div className='sm:flex gap-x-6'>
                         <div className='mt-28'>
-                            <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>CONTACT US</button>
+                           <a href='Contactus'>
+                           <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>CONTACT US</button>
+                           </a> 
                         </div>
 
 

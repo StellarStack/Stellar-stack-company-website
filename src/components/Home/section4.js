@@ -18,8 +18,8 @@ export default function Section4() {
                             </div>
                             <div className=''>
                                 <h1 className='text-[32px] font-semibold'>Experienced & Trusted Team</h1>
-                                <h1 className='text-[18px] leading-tight'> We have delivered over one hundred clients worldwide with our fast<br></br>
-                                    development and mass-volume service provision capability.</h1>
+                                <p className='text-[18px] leading-tight'> We have delivered over one hundred clients worldwide with our fast<br></br>
+                                    development and mass-volume service provision capability.</p>
                             </div>
                         </div>
                     </div>
@@ -44,9 +44,9 @@ export default function Section4() {
                             </div>
                             <div className=''>
                                 <h1 className='text-[32px] font-semibold'>Innovative ideas</h1>
-                                <h1 className='text-[18px] leading-tight'> Our innovative services give the ultimate in flexibility and scalability<br></br>
+                                <p className='text-[18px] leading-tight'> Our innovative services give the ultimate in flexibility and scalability<br></br>
                                     allowing for different combinations and configurations to meet even your <br></br>
-                                    most demanding requirements.</h1>
+                                    most demanding requirements.</p>
                             </div>
                         </div>
                     </div>
@@ -70,9 +70,9 @@ export default function Section4() {
                             </div>
                             <div className=''>
                                 <h1 className='text-[32px] font-semibold'>Professional Service</h1>
-                                <h1 className='text-[18px] leading-tight'>  The StellarStack team is ever ready to come up with solutions for our<br></br>
+                                <p className='text-[18px] leading-tight'>  The StellarStack team is ever ready to come up with solutions for our<br></br>
                                     partners. With a dedicated team of experts supporting clients every step<br></br>
-                                    of the way, overcoming digital identity challenges is never a problem.</h1>
+                                    of the way, overcoming digital identity challenges is never a problem.</p>
                             </div>
                         </div>
                     </div>
