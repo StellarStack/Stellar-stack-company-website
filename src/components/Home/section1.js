@@ -9,7 +9,7 @@ export default function Section1() {
             <div className=' mt-12 container mx-auto max-w-[1400px]'>
                 <div className='ml-10 md:ml-[100.03px]  tracking-tighter'>
                     <span className='text-[#0399DA]  font-bold '>01. ABOUT US</span>
-                    <h1 className='text-[40px] md:text-[50px] sm:leading-[60px] font-bold pt-6'>StellarStack enables clients to manage<br></br>
+                    <h1 className='text-[30px] md:text-[50px] sm:leading-[60px] font-bold pt-6'>StellarStack enables clients to manage<br></br>
                         digital identity by providing them<br></br> eminent services.</h1>
                 </div>
                 <div className='md:flex gap-x-8'>
@@ -67,7 +67,7 @@ export default function Section1() {
                 <div className='pt-20 md:mt-44 w-[100%]'>
                     <div className='px-12 sm:px-0 sm:ml-[100.03px]  tracking-tighter'>
                         <span className='text-[#0399DA] font-semibold '>02. OUR SERVICES</span>
-                        <h1 className='text-[40px] sm:text-[54px] leading-8 sm:leading-[60px] font-semibold pt-8'>StellarStack techstack,<br></br>
+                        <h1 className='text-[40px]  sm:text-[54px] leading-8 sm:leading-[60px] font-semibold pt-8'>StellarStack techstack,<br></br>
                             smart and innovative.</h1>
                     </div>
                 </div>
