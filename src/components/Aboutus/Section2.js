@@ -4,15 +4,15 @@ export default function Section2() {
     return (
         <>
 
-            <div className="container mx-auto mt-[800px]">
+            <div className="container mx-auto mt-48">
 
-                <div className="w-[50%] mx-20">
+                <div className="md:w-[50%] md:mx-20">
                     <h1 className="text-[#0399DA] font-semibold sm:px-0 px-8">02.  <span className="pl-2 font-semibold">VALUES, MISSION, VISION</span></h1>
                 </div>
-                <div className="sm:px-0 px-8 mx-20">
-                    <h1 className="text-[64px] font-extrabold">Manouvering on sky.</h1>
+                <div className="sm:px-0 px-8 md:mx-20">
+                    <h1 className=" text-[40px] md:text-[64px] font-extrabold md:text-left text-center">Manouvering on sky.</h1>
                 </div>
-                <div className="mt-20 mx-20">
+                <div className="mt-20 mx-20 md:text-left text-center">
                     <span className="text-[20px]">More than just a slogan, this is our driving principle that<br></br>
                         guides everything that we do. We have made it our<br></br>
                         overriding mission to provide superior services and solutions<br></br>
@@ -24,7 +24,7 @@ export default function Section2() {
                     <div className="">
                         <Image src='/images/Line (6).png' alt="" width={1332} height={5} />
                     </div>
-                    <div className="flex  items-center pt-4 pb-4  ">
+                    <div className="md:flex  items-center pt-4 pb-4  ">
                         <div className="w-[14%]">
                             <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="33" cy="33" r="33" fill="#B2E8FF" fillOpacity="0.5" />
@@ -56,7 +56,7 @@ export default function Section2() {
                     <div className="">
                         <Image src='/images/Line (6).png' alt="" width={1332} height={5} />
                     </div>
-                    <div className="flex  items-center  pt-4 ">
+                    <div className="md:flex  items-center  pt-4 ">
                         <div className="w-[14%]">
                             <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="33" cy="33" r="33" fill="#B2E8FF" fillOpacity="0.5" />
@@ -86,7 +86,7 @@ export default function Section2() {
                     <div className="">
                         <Image src='/images/Line (6).png' alt="" width={1332} height={5} />
                     </div>
-                    <div className="flex  items-center pt-4  ">
+                    <div className="md:flex  items-center pt-4  ">
                         <div className="w-[14%]">
                             <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="33" cy="33" r="33" fill="#B2E8FF" fillOpacity="0.5" />

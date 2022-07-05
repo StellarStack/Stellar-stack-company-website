@@ -15,19 +15,26 @@ export default function Section1() {
                     </h1>
                 </div>
 
-                <div className='container hidden mx-auto mt-12 overflow-x-hidden xl:block xl:flex'>
-                    <div className='hidden overflow-x-hidden lg:relative md:block '>
+                <div className='container  mx-auto mt-12  lg:flex lg:justify-start '>
+                    <div className='hidden  lg:relative lg:block '>
                         <Image src='/images/ImageCircles.png' width={550.17} height={550.73} alt="" />
                     </div>
 
-                    <div className=' lg:absolute left-[450px]  w-[100%] overflow-x-hidden container mx-auto'>
-                        <Image className="hidden md:block" src='/images/unsplash.png' width={821} height={380} alt="" />
-                        <div className="ml-6 mt-36">
+                    <div className=' lg:absolute lg:left-[450px]  w-[100%]  '>
+                        <Image className="" src='/images/unsplash.png' width={821} height={380} alt="" />
+                        </div>
+                        </div>
+                       
+                        <div className="lg:ml-36 lg:text-left text-center flex justify-center">
+                            <div className=" ">
+                            <div>
                             <h1 className="font-extrabold">Since 2018, we have been helping thousands around<br></br>
                                 the world manage their digital identity requirements<br></br>
                                 with our innovative services and  solutions.</h1>
-                            <div className="mt-24 ">
-                                <div>
+                                </div>
+                                
+                                
+                                <div className="mt-20">
                                     <span>Companies, educational institutions, banks, and a growing list of other industries are<br></br>
                                         realizing the benefits of increased efficiencies, all thanks to the IT systems provided<br></br>
                                         from StellarStack</span>
@@ -47,8 +54,8 @@ export default function Section1() {
 
                             </div>
                         </div>
-                    </div>
-                </div>
+                    
+                
             </div>
         </>
 
