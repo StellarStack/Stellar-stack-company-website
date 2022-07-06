@@ -11,11 +11,12 @@ export default function Header() {
                 <div className="md:flex container mx-auto">
 
                     <div className="  ">
-                        <Image src='/images/LOGO TEXT.png' width={184} height={42} alt="" />
+                        {/* <Image src='/images/LOGO TEXT.png' width={184} height={42} alt="" /> */}
+                        <h1 className='text-[#0399DA] text-[30px]'>Stellar<span className='text-white'>stack</span></h1>
                     </div>
 
                     <div className=' text-center md:block hidden w-full justfy-center '>
-                      <a href="index"><span className='text-white hover:text-[#0399DA] px-3'>Home</span></a>
+                      <a href="index"><span className='text-white hover:text-[#0399DA]  px-3'>Home</span></a>
                       <a href=''><span className='text-white px-3 cursor-pointer hover:text-[#0399DA]'>Services</span></a> 
                       <a href='Aboutus'><span className='text-white px-3 hover:text-[#0399DA]'>About us</span></a> 
                       <a href='Contactus'><span className='text-white px-3 hover:text-[#0399DA]'>Contact us</span></a>

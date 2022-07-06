@@ -46,7 +46,7 @@ export default function Section1() {
                 </div>
                 <div className='md:ml-[100px] mt-20 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">Information Collection and Use</h1>
+                        <h1 className="font-extrabold text-[24px]">Information Collection and Use</h1>
                     </div>
                     <div className="">
                         <p className="pt-8 font-extralight">For a better experience while using our Service, we may require you to provide us with certain <br></br>
@@ -58,7 +58,7 @@ export default function Section1() {
 
                 <div className='md:ml-[100px] mt-20 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">Log Data</h1>
+                        <h1 className="font-extrabold text-[24px]">Log Data</h1>
                     </div>
                     <div className="">
                         <p className="pt-5 font-extralight">We want to inform you that whenever you visit our Service, we collect information that your browser sends to us that is called <br></br>
@@ -69,7 +69,7 @@ export default function Section1() {
 
                 <div className='md:ml-[100px] mt-20 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">Cookies</h1>
+                        <h1 className="font-extrabold text-[24px]">Cookies</h1>
                     </div>
                     <div className="">
                         <p className="pt-5 font-extralight">Cookies are files with a small amount of data that is commonly used as an anonymous unique identifier. These are sent to your browser from the website that<br></br>
@@ -84,7 +84,7 @@ export default function Section1() {
 
                 <div className='md:ml-[110px] mt-16 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">Restrictions</h1>
+                        <h1 className="font-extrabold text-[24px]">Restrictions</h1>
                     </div>
                     <p className="pt-5">‍We may employ third-party companies and individuals due to the following reasons:</p>
 
@@ -102,7 +102,7 @@ export default function Section1() {
           
                 <div className='md:ml-[100px] mt-20 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">Security</h1>
+                        <h1 className="font-extrabold text-[24px]">Security</h1>
                     </div>
                     <div className="">
                         <p className="pt-5 font-extralight">We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember<br></br>
@@ -115,7 +115,7 @@ export default function Section1() {
 
                 <div className='md:ml-[100px] mt-20 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">Links to Other Sites</h1>
+                        <h1 className="font-extrabold text-[24px]">Links to Other Sites</h1>
                     </div>
                     <div className="">
                         <p className="pt-5 font-extralight">Our Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not <br></br>
@@ -128,7 +128,7 @@ export default function Section1() {
 
                 <div className='md:ml-[100px] mt-20 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">Children's Privacy</h1>
+                        <h1 className="font-extrabold text-[24px]">Children's Privacy</h1>
                     </div>
                     <div className="">
                         <p className="pt-5 font-extralight">Our Services do not address anyone under the age of 13. We do not knowingly collect personal identifiable information from children under 13. In the  <br></br>
@@ -141,7 +141,7 @@ export default function Section1() {
 
                 <div className='md:ml-[100px] mt-20 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">Changes to This Privacy Policy</h1>
+                        <h1 className="font-extrabold text-[24px]">Changes to This Privacy Policy</h1>
                     </div>
                     <div className="">
                         <p className="pt-5 font-extralight">We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any<br></br>
@@ -152,7 +152,7 @@ export default function Section1() {
 
                 <div className='md:ml-[100px] mt-20 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">Contact Us</h1>
+                        <h1 className="font-extrabold text-[24px]">Contact Us</h1>
                     </div>
                     <div className="">
                         <p className="pt-5 font-extralight">If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us</p>
