@@ -36,11 +36,11 @@ export default function Section2() {
                             </svg>
                         </div>
 
-                        <div className="w-[89%]">
+                        <div className="w-[78%]">
                             <h1 className="font-bold">Relentless Pursuit of Innovation</h1>
                         </div>
                         <div className="">
-                            <div className="w-[60%]">
+                            <div className="w-[65%]">
                                 <svg width="66" height="66" viewBox="0 0 66 66" fill="none" xmlns="http://www.w3.org/2000/svg" >
                                     <circle cx="33" cy="33" r="25" fill="#00B2FF" fillOpacity="0.5" />
                                     <circle cx="33" cy="33" r="33" fill="#B2E8FF" fillOpacity="0.5" />
@@ -66,7 +66,7 @@ export default function Section2() {
 
                         </div>
 
-                        <div className="w-[89%]">
+                        <div className="w-[78%]">
                             <h1 className="font-bold">Top-shelf Quality </h1>
                         </div>
                         <div className="">
@@ -101,7 +101,7 @@ export default function Section2() {
                             </svg>
                         </div>
 
-                        <div className="w-[89%] ">
+                        <div className="w-[78%] ">
                             <h1 className="font-bold">Exceptional Customer Focus</h1>
                         </div>
                         <div className="">
