@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Section1() {
     return (
         <>
-            <div className="container mx-auto mt-20">
+            <div className="container mx-auto mt-20 px-8">
                 <div className="">
                     <h1 className="text-[#0399DA] font-semibold sm:px-0 px-8">01.  <span className="pl-2 font-semibold">CONTACT US</span></h1>
                 </div>

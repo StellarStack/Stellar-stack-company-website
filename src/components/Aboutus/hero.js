@@ -10,7 +10,7 @@ export default function Hero() {
 
                     <div className="text-center  ">
                         {/* <Image src='/images/LOGO TEXT.png' width={184} height={42} alt="" /> */}
-                        <h1 className='text-[#0399DA] text-[30px]'>Stellar<span className='text-white'>stack</span></h1>
+                        <h1 className='text-[#0399DA] text-[30px]'>Stellar<span className='text-white'>stack.</span></h1>
                     </div>
 
                     <div className=' md:w-[90%] text-center md:block hidden pl-36'>

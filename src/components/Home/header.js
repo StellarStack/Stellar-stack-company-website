@@ -12,7 +12,7 @@ export default function Header() {
 
                     <div className="  ">
                         {/* <Image src='/images/LOGO TEXT.png' width={184} height={42} alt="" /> */}
-                        <h1 className='text-[#0399DA] text-[30px]'>Stellar<span className='text-white'>stack</span></h1>
+                        <h1 className='text-[#0399DA] text-[30px]'>Stellar<span className='text-white'>stack.</span></h1>
                     </div>
 
                     <div className=' text-center md:block hidden w-full justfy-center '>
