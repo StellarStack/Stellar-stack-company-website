@@ -27,7 +27,7 @@ export default function Section1() {
                 </div>
                 <div className='md:ml-[110px] mt-20 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">Introduction</h1>
+                        <h1 className="font-extrabold text-[24px]">Introduction</h1>
                     </div>
                     <div className="">
                         <p className="font-extralight">These Website Standard Terms and Conditions written on this webpage shall manage your use of our website,<br></br>
@@ -41,7 +41,7 @@ export default function Section1() {
 
                 <div className='md:ml-[110px] mt-16 mb-16 md:mt-12 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">Intellectual Property Rights</h1>
+                        <h1 className="font-extrabold text-[24px]">Intellectual Property Rights</h1>
                     </div>
                     <div className="">
                         <p className="pt-4 font-extralight">Other than the content you own, under these Terms, StellarStack and/or its licensors own all the intellectual property<br></br>
@@ -54,7 +54,7 @@ export default function Section1() {
 
                 <div className='md:ml-[110px] mt-16 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">Restrictions</h1>
+                        <h1 className="font-extrabold text-[24px]">Restrictions</h1>
                     </div>
                     <p className="pt-5">‍You are specifically restricted from all of the following:</p>
 
@@ -77,7 +77,7 @@ export default function Section1() {
 
                 <div className='md:ml-[110px] mt-16 mb-12 md:mt-12 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">Your Content</h1>
+                        <h1 className="font-extrabold text-[24px]">Your Content</h1>
                     </div>
                     <div className="">
                         <p className="pt-4 font-extralight">In these Website Standard Terms and Conditions, "Your Content" shall mean any audio, video text, images or other material <br></br>
@@ -90,7 +90,7 @@ export default function Section1() {
                 </div>
                 <div className='md:ml-[110px] mt-16 md:mt-12 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">No warranties</h1>
+                        <h1 className="font-extrabold text-[24px]">No warranties</h1>
                     </div>
                     <div className="">
                         <p className="pt-4 font-extralight">In no event shall StellarStack Biometrics, nor any of its officers, directors and employees, shall be held liable for anything <br></br>
@@ -103,7 +103,7 @@ export default function Section1() {
 
                 <div className='md:ml-[110px] mt-16 md:mt-12 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">Limitation of liability</h1>
+                        <h1 className="font-extrabold text-[24px]">Limitation of liability</h1>
                     </div>
                     <div className="">
                         <p className="pt-4 font-extralight">In no event shall StellarStack Biometrics, nor any of its officers, directors and employees, shall be held liable for anything <br></br>
@@ -116,7 +116,7 @@ export default function Section1() {
 
                 <div className='md:ml-[110px] mt-16 md:mt-12 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">‍Indemnification</h1>
+                        <h1 className="font-extrabold text-[24px]">‍Indemnification</h1>
                     </div>
                     <div className="">
                         <p className="pt-4 font-extralight">You hereby indemnify to the fullest extent StellarStack Biometrics from and against any and/or all liabilities, costs, demands,<br></br>
@@ -127,7 +127,7 @@ export default function Section1() {
 
                 <div className='md:ml-[110px] mt-16 md:mt-12 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">‍Severability</h1>
+                        <h1 className="font-extrabold text-[24px]">‍Severability</h1>
                     </div>
                     <div className="">
                         <p className="pt-4 font-extralight">‍If any provision of these Terms is found to be invalid under any applicable law, such provisions shall be deleted without <br></br>
@@ -139,7 +139,7 @@ export default function Section1() {
 
                 <div className='md:ml-[110px] mt-16 md:mt-12 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">‍Variation of Terms</h1>
+                        <h1 className="font-extrabold text-[24px]">‍Variation of Terms</h1>
                     </div>
                     <div className="">
                         <p className="pt-4 font-extralight">StellarStack Biometrics is permitted to revise these Terms at any time as it sees fit, and by using this Website you are <br></br>
@@ -150,7 +150,7 @@ export default function Section1() {
 
                 <div className='md:ml-[110px] mt-16 md:mt-12 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">‍Assignment</h1>
+                        <h1 className="font-extrabold text-[24px]">‍Assignment</h1>
                     </div>
                     <div className="">
                         <p className="pt-4 font-extralight">StellarStack Biometrics is allowed to assign, transfer, and subcontract its rights and/or obligations under these Terms without <br></br>
@@ -163,7 +163,7 @@ export default function Section1() {
 
                 <div className='md:ml-[110px] mt-16 md:mt-12 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">‍Entire Agreement</h1>
+                        <h1 className="font-extrabold text-[24px]">‍Entire Agreement</h1>
                     </div>
                     <div className="">
                         <p className="pt-4 font-extralight">‍These Terms constitute the entire agreement between StellarStack Biometrics and you in relation to your use of this Website,<br></br>
@@ -174,7 +174,7 @@ export default function Section1() {
 
                 <div className='md:ml-[110px] mt-16 md:mt-12 md:px-0 px-5 sm:text-left text-center justify-center sm:justify-start'>
                     <div >
-                        <h1 className="font-extrabold">‍Governing Law & Jurisdiction</h1>
+                        <h1 className="font-extrabold text-[24px]">‍Governing Law & Jurisdiction</h1>
                     </div>
                     <div className="">
                         <p className="pt-4 font-extralight">These Terms will be governed by and interpreted in accordance with the laws of the State of af, and you submit to the non-<br></br>
