@@ -5,7 +5,7 @@ export default function Section1() {
         <>
             <div className="container mx-auto mt-20 px-8">
                 <div className="">
-                    <h1 className="text-[#0399DA] font-semibold sm:px-0 px-8">01.  <span className="pl-2 font-semibold">CONTACT US</span></h1>
+                    <h1 className="text-[#0399DA] font-medium sm:px-0 px-8">01.  <span className="pl-2 font-medium">CONTACT US</span></h1>
                 </div>
                 <div className="sm:px-0 px-8">
                     <h1 className="text-[64px] leading-[70px] font-extrabold">We’re here to help.</h1>
@@ -15,19 +15,19 @@ export default function Section1() {
                     <div className='sm:px-0 px-8 md:w-[40%]'>
                         <div className="mt-12">
                             <h1 className="font-extrabold ">Support Email</h1>
-                            <h1 className="">StellarStack@gmail.com</h1>
+                            <span className="font-medium">StellarStack@gmail.com</span>
                         </div>
 
 
                         <div className="mt-12">
                             <h1 className="font-extrabold ">Sales Email</h1>
-                            <h1 className="">StellarStack@gmail.com</h1>
+                            <span className="font-medium">StellarStack@gmail.com</span>
                         </div>
                     </div>
 
                     <div className="px-12 md:w-[50%]">
                         <div className="mt-12">
-                            <h1 className="text-[14px]">GENERAL ENQUIRE / SERVICE  ENQUIRY / PARTNERSHIP</h1>
+                            <span className="text-[14px] font-medium">GENERAL ENQUIRE / SERVICE  ENQUIRY / PARTNERSHIP</span>
                         </div>
                         <div className="">
                             <Image src="/images/Group759.png" alt="" width={829} height={4} />

@@ -8,7 +8,7 @@ export default function Section2() {
         <>
             <div className="container mx-auto mt-32 md:mt-20">
                 <div className="">
-                    <h1 className="text-[#0399DA] font-semibold sm:px-0 px-8">03.  <span className="pl-2 font-semibold">TECHNICAL SUPPORT</span></h1>
+                    <h1 className="text-[#0399DA] font-medium sm:px-0 px-8">03.  <span className="pl-2 font-medium">TECHNICAL SUPPORT</span></h1>
                 </div>
                 <div className="sm:px-0 px-8">
                     <h1 className="text-[50px] font-extrabold">For any  issue, you can fill the <br></br>
@@ -18,12 +18,12 @@ export default function Section2() {
 
                 <div className="sm:flex ">
                     <div className='sm:px-0 px-8 md:w-[30%] pt-12'>
-                    <h1> or contact us at support@stellarstack.co</h1>
+                    <h1 className="font-medium"> or contact us at support@stellarstack.co</h1>
                     </div>
 
                     <div className="px-12 md:w-[50%]">
                         <div className="mt-12">
-                            <h1 className="text-[14px]">GENERAL ENQUIRE / SERVICE  ENQUIRY / PARTNERSHIP</h1>
+                            <h1 className="text-[14px] font-medium">GENERAL ENQUIRE / SERVICE  ENQUIRY / PARTNERSHIP</h1>
                         </div>
                         <div className="">
                             <Image src="/images/Group759.png" alt="" width={829} height={4} />
