@@ -12,7 +12,7 @@ export default function Hero() {
                         <h1 className='text-[#0399DA] text-[30px]'>Stellar<span className='text-white '>stack.</span></h1>
                     </div>
 
-                    <div className=' md:w-[75%] text-center flex justify-center md:block hidden pl-36'>
+                    <div className=' md:w-[75%] py-3 text-center flex justify-center md:block hidden pl-36'>
                         <a href="index"><span className='text-white hover:text-[#0399DA] px-3'>Home</span></a>
                         <span className='text-white px-3 hover:text-[#0399DA] cursor-pointer'>Services</span>
                         <a href="Aboutus"><span className='text-white hover:text-[#0399DA] px-3'>About us</span></a>
@@ -53,7 +53,7 @@ export default function Hero() {
 
                 <div className="container mx-auto pt-8 sm:pt-36 pb-28">
                     <div className="px-5 md:ml-[103px]">
-                        <h1 className="text-[60px] sm:text-[90px] text-white font-extrabold">Let's<span className="text-[#0399DA] font-extrabold pl-2">Talk.</span></h1>
+                        <h1 className="text-[60px] sm:text-[90px] text-white font-medium">Let's<span className="text-[#0399DA] font-medium pl-2">Talk.</span></h1>
                     </div>
 
                     <div className="md:flex pt-12 sm:pt-[200px] ">

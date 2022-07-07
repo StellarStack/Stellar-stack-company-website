@@ -6,11 +6,11 @@ export default function Section3() {
             <div className="container mx-auto mt-20">
                 <div className="md:mx-20 ">
                     <div className="">
-                        <h1 className="text-[#0399DA] font-semibold sm:px-0 px-8">03.<span className="pl-2 font-semibold">WHY STELLAR STACK</span></h1>
+                        <h1 className="text-[#0399DA] font-medium sm:px-0 px-8">03.<span className="pl-2 font-medium">WHY STELLAR STACK</span></h1>
                     </div>
                     <div className="lg:flex ">
                         <div className="sm:px-0 px-4   lg:absolute">
-                            <h1 className="text-[40px] lg:text-left  lg:text-[60px] lg:z-20 font-extrabold">With our highly experienced<br></br> team of IT and design<br></br> experts, we proudly offer:</h1>
+                            <h1 className="text-[40px] lg:text-left  lg:text-[60px] lg:z-20 font-medium">With our highly experienced<br></br> team of IT and design<br></br> experts, we proudly offer:</h1>
                         </div>
                         <div className="lg:block hidden relative lg:-z-20 lg:left-[58%] ">
                             <Image src='/images/image1.png' alt='' width={321} height={347} />
