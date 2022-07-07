@@ -77,13 +77,13 @@ export default function Section6() {
                     <div className='sm:flex gap-x-6'>
                         <div className='mt-20 ml-10 sm:ml-10 md:ml-0 lg:ml-0'>
                            <a href='Contactus'>
-                           <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>CONTACT US</button>
+                           <button className='bg-[#0399DA]  text-white text-[18px] font-semibold rounded-xl px-6 py-3'>CONTACT US</button>
                            </a> 
                         </div>
 
 
                         <div className=' mt-8 sm:mt-20 ml-10 sm:ml-2 md:ml-0 lg:ml-0'>
-                            <button className='border border-black   text-[16px] font-medium rounded-xl px-6 py-3'>VIEW SOLUTION</button>
+                            <button className='border border-black   text-[18px] font-medium rounded-xl px-6 py-3'>VIEW SOLUTION</button>
                         </div>
 
 

@@ -10,7 +10,7 @@ export default function Section1() {
                     <h1 className='text-[40px] md:text-[50px] sm:leading-[60px] font-bold pt-6'>StellarStack is a growing <br></br>
                         leader in the IT and Marketing<br></br>industry.</h1>
 
-                    <div className='mt-12'>
+                    <div className='mt-12 text-[18px]'>
                         <p>The standard of excellence in our work provision is well reputed. Along<br></br>
                             with local clients from Pakistan, we have also provided services to<br></br>
                             offshore leading software and marketing firms.</p>
@@ -26,7 +26,7 @@ export default function Section1() {
                         <div className="">
                             <h1>OPTION 01.</h1>
                             <h1 className="pt-12">Contact with StellarStack</h1>
-                            <p className="pt-12">To get a quote for your required services in domains of<br></br>
+                            <p className="pt-12 font-medium">To get a quote for your required services in domains of<br></br>
                                 designing, development and Marketing reach us out.</p>
                         </div>
 
@@ -36,14 +36,14 @@ export default function Section1() {
                         <div className="">
                             <h1>OPTION 02.</h1>
                             <h1 className="pt-7">Contact StellarStack directly</h1>
-                            <p className="pt-4">It is customers’ responsibility to ship back the products<br></br>
+                            <p className="pt-4 font-medium">It is customers’ responsibility to ship back the products<br></br>
                                 including the shipping cost (round trip), any applicable<br></br>
                                 duties and service fees.</p>
 
-                            <p className="pt-2">Please download and fill the RMA form</p>
+                            <p className="pt-2 font-medium">Please download and fill the RMA form</p>
 
 
-                            <button className='bg-[#0399DA] mt-8 text-white  rounded-xl px-4 py-2'>RMA FORM DOWNLOAD</button>
+                            <button className='bg-[#0399DA] mt-8 text-white  font-medium rounded-xl px-4 py-2'>RMA FORM DOWNLOAD</button>
                         </div>
 
                     </div>
@@ -53,12 +53,12 @@ export default function Section1() {
                     <div className='md:w-[43%]'>
                         <div className="">
                             <h1>RMA conditions</h1>
-                            <p className="pt-12">RMA service is applicable <span className="font-extrabold">ONLY</span> in the country<br></br>
+                            <p className="pt-12  font-light">RMA service is applicable <span className="font-extrabold">ONLY</span> in the country<br></br>
                                 or region where StellarStack products are<br></br>
                                 purchased.</p>
 
 
-                            <p className="pt-6">If users request RMA support outside of the <br></br>
+                            <p className="pt-6 font-light">If users request RMA support outside of the <br></br>
                                 countries or regions whereStellarStack <br></br>
                                 products are purchased, authorized local <br></br>
                                 distributors/partners may request additional <br></br>
@@ -70,16 +70,16 @@ export default function Section1() {
                     <div className='md:mt-0 mt-16 '>
                         <div className="">
                             <h1>Scenarios are not included in warranty</h1>
-                            <p className="pt-7">Service fee is required for RMA Service.</p>
+                            <p className="pt-7 font-medium">Service fee is required for RMA Service.</p>
 
 
                             <ul className="list-disc pt-8 text-[13px] ml-5">
-                                <li>Product is out of warranty</li>
-                                <li>Damages caused by natural disasters of improper handling/operation</li>
-                                <li>Damages caused by disassembling device or installing (additional) unofficial hardware or components</li>
-                                <li>Damages caused by modifying software</li>
-                                <li>No document of purchase and visible label with serial number</li>
-                                <li>Damages caused by not following instructions on manual or false operation</li>
+                                <li >Product is out of warranty</li>
+                                <li >Damages caused by natural disasters of improper handling/operation</li>
+                                <li >Damages caused by disassembling device or installing (additional) unofficial hardware or components</li>
+                                <li >Damages caused by modifying software</li>
+                                <li >No document of purchase and visible label with serial number</li>
+                                <li >Damages caused by not following instructions on manual or false operation</li>
                             </ul>
 
                         </div>
@@ -96,16 +96,16 @@ export default function Section1() {
                     </div>
 
 
-                    <div className='md:w-[40%] mt-20 md:px-0 px-8'>
+                    <div className='md:w-[50%] mt-20 md:px-0 px-8'>
 
-                        <span className='text-[#0399DA]  font-bold '>02. DOWNLOADS</span>
-                        <h1 className='text-[40px] md:text-[50px] sm:leading-[60px] font-bold pt-6'>Download our Services  <br></br>
+                        <span className='text-[#0399DA]  font-medium '>02. DOWNLOADS</span>
+                        <h1 className='text-[40px] md:text-[50px] sm:leading-[60px] font-bold pt-6'>Download our Services <br></br>
                             datasheets.</h1>
 
                             <div className="flex md:justify-end ">
                                 <div></div>
                                 <div className="">
-                                <button className='bg-[#0399DA] mt-8 text-white  rounded-xl px-4 py-2'>VIEW DOWNLOADS</button>
+                                <button className='bg-[#0399DA] mt-8 text-white font-medium  rounded-xl px-4 py-2'>VIEW DOWNLOADS</button>
                                 </div>
                             </div>
                     </div>

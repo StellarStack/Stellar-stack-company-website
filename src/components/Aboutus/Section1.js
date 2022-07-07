@@ -28,7 +28,7 @@ export default function Section1() {
                         <div className="lg:ml-[300px] lg:text-left text-center flex justify-center">
                             <div className=" ">
                             <div>
-                            <h1 className="font-extrabold text-[24px]">Since 2018, we have been helping thousands around<br></br>
+                            <h1 className="font-medium text-[24px]">Since 2018, we have been helping thousands around<br></br>
                                 the world manage their digital identity requirements<br></br>
                                 with our innovative services and  solutions.</h1>
                                 </div>

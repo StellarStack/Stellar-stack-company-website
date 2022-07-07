@@ -63,25 +63,25 @@ export default function Header() {
 
                     <div className="sm:flex gap-x-16 pt-12 sm:pt-[200px]  ">
                         <div className="ml-8 lg:ml-[200px] md:mt-3 md:w-[15%]  ">
-                            <h1 className="text-white">HOW CAN WE HELP?</h1>
+                            <h1 className="text-white font-medium">HOW CAN WE HELP?</h1>
                         </div>
 
 
                         <div className="sm:flex gap-x-6">
                             <div className="px-8 pl-4 ">
                                 <Image src='/images/Line 18.png' width={279} height={1} alt="" />
-                                <h1 className="text-white font-semibold text-[12px]">01</h1>
-                                <h1 className="text-white font-semibold text-[12px]">Warranty Of Service</h1>
+                                <h1 className="text-white font-medium text-[12px]">01</h1>
+                                <h1 className="text-white font-medium text-[12px]">Warranty Of Service</h1>
                             </div>
                             <div className="pl-4">
                                 <Image src='/images/Line 18.png' width={279} height={1} alt="" />
-                                <h1 className="text-white font-semibold text-[12px]">02</h1>
-                                <h1 className="text-white font-semibold text-[12px]">Product Datasheet</h1>
+                                <h1 className="text-white font-medium text-[12px]">02</h1>
+                                <h1 className="text-white font-medium text-[12px]">Product Datasheet</h1>
                             </div>
                             <div className="px-8 pl-4 ">
                                 <Image src='/images/Line 18.png' width={279} height={1} alt="" />
-                                <h1 className="text-white font-semibold text-[12px]">03</h1>
-                                <h1 className="text-white font-semibold text-[12px]">Technical Support</h1>
+                                <h1 className="text-white font-medium text-[12px]">03</h1>
+                                <h1 className="text-white font-medium  text-[12px]">Technical Support</h1>
                             </div>
                         </div>
                     </div>
