@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function Hero() {
     return (
         <>
-            <div className="bg-white pt-8 pb-4 header Hero ">
+            <div className="bg-white pt-8 pb-4 header Hero  ">
                 <div className="md:flex container mx-auto ">
 
                     <div className="text-center  ">
@@ -12,7 +12,7 @@ export default function Hero() {
                         <h1 className='text-[#0399DA] text-[30px]'>Stellar<span className='text-white'>stack.</span></h1>
                     </div>
 
-                    <div className=' md:w-[90%] text-center md:block hidden pl-36'>
+                    <div className=' md:w-[75%] text-center flex justify-center md:block hidden pl-36'>
                         <a href="index"><span className='text-white hover:text-[#0399DA] px-3'>Home</span></a>
                         <span className='text-white px-3 hover:text-[#0399DA] cursor-pointer'>Services</span>
                         <a href="Aboutus"><span className='text-white hover:text-[#0399DA] px-3'>About us</span></a>

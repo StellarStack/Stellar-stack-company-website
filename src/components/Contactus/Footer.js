@@ -8,9 +8,9 @@ export default function Footer() {
 
                 <div className='container justify-between mx-auto md:flex '>
                     <div className='pt-12 pl-16 md:pt-32'>
-                       <a href='Contactus'> 
-                       <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>GET IN TOUCH</button>
-                       </a>
+                        <a href='Contactus'>
+                            <button className='bg-[#0399DA]  text-white text-[16px] font-medium rounded-xl px-6 py-3'>GET IN TOUCH</button>
+                        </a>
                     </div>
                     <div className='flex justify-center px-16 pt-12 text-white md:px-0 gap-x-8 md:pt-32'>
                         <div className=''>
@@ -25,12 +25,14 @@ export default function Footer() {
                         <div className=''>
                             <span className='cursor-pointer'>COMPANY</span>
                             <ul className='pt-4 list-none'>
-                            <a href='Aboutus'> 
-                                <li className='cursor-pointer'>About</li>
+                                <a href='Aboutus'>
+                                    <li className='cursor-pointer'>About</li>
                                 </a>
                                 <li className='pt-1 cursor-pointer'>News</li>
-                                <li className='pt-1 cursor-pointer'>Contact</li>
-                            </ul>
+                                <a href='Contactus'>
+                                    <li className='pt-1 cursor-pointer'>Contact</li>
+                                </a>
+                       </ul>
                         </div>
 
 
@@ -38,11 +40,11 @@ export default function Footer() {
                         <div className='hidden sm:block'>
                             <span className='cursor-pointer'> LOCATIONS</span>
                             <ul className='pt-4 list-none'>
-                            <a href='Contactus'> 
-                                <li className='pt-1 cursor-pointer'>Asia</li>
+                                <a href='Contactus'>
+                                    <li className='pt-1 cursor-pointer'>Asia</li>
                                 </a>
-                                <a href='Contactus'> 
-                                <li className='pt-1 cursor-pointer'>Europe</li>
+                                <a href='Contactus'>
+                                    <li className='pt-1 cursor-pointer'>Europe</li>
                                 </a>
                             </ul>
                         </div>
@@ -101,12 +103,12 @@ export default function Footer() {
 
 
                         <div className='text-white cursor-pointer '>
-                           <a href='Terms'><button><h1>Term’s & Conditions</h1></button></a>
+                            <a href='Terms'><button><h1>Term’s & Conditions</h1></button></a>
                         </div>
 
 
                         <div className='text-white '>
-                          <a href='Privacy'><h1>Privacy Policy</h1></a>  
+                            <a href='Privacy'><h1>Privacy Policy</h1></a>
                         </div>
 
                     </div>

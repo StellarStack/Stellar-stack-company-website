@@ -15,7 +15,7 @@ export default function Header() {
                         <h1 className='text-[#0399DA] text-[30px]'>Stellar<span className='text-white'>stack.</span></h1>
                     </div>
 
-                    <div className=' text-center md:block hidden w-full justfy-center '>
+                    <div className=' md:w-[65%] text-center flex justify-center md:block hidden pl-36'>
                       <a href="index"><span className='text-white hover:text-[#0399DA]  px-3'>Home</span></a>
                       <a href=''><span className='text-white px-3 cursor-pointer hover:text-[#0399DA]'>Services</span></a> 
                       <a href='Aboutus'><span className='text-white px-3 hover:text-[#0399DA]'>About us</span></a> 
