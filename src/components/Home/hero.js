@@ -5,8 +5,8 @@ export default function Hero() {
         <>
             <div className='hero pb-20 md:pb-[280px] flex justify-center  text-center  '>
                 <div className='text-white pt-20 md:pt-[300px] leading-none'>
-                    <h1  className='text-[40px]  md:text-[80px] font-semibold'>Build Real-Time<br></br>
-                        <span className='text-[40px] md:text-[80px] text-[#0399DA] font-semibold '>Apps & Services</span></h1>
+                    <h1  className='text-[40px] heading md:text-[80px] font-semibold'>Build Real-Time<br></br>
+                        <span className='text-[40px] heading md:text-[80px] text-[#0399DA] font-semibold '>Apps & Services</span></h1>
                     <h1 className='pt-8 text-[20px] md:text-[30px] font-light text-center'>Smart solutions and digital experiences for organizations.</h1>
 
                     <div className=' pt-12 '>

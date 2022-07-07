@@ -3,26 +3,32 @@
 @tailwind utilities;
 
 @font-face {
-  font-family:Red Hat Display;
+  font-family: Red Hat Display;
   src: url('../src/components/assets/RedHatDisplay-Black.ttf');
   src: url('../src/components/assets/RedHatDisplay-Bold.ttf');
 
   src: url('../src/components/assets/RedHatDisplay-Light.ttf');
-  src: url('../src/components/assets/RedHatDisplay-Medium.ttf');
+
   src: url('../src/components/assets/RedHatDisplay-Regular.ttf');
   src: url('../src/components/assets/RedHatDisplay-Regular.ttf');
-   src: url('../src/components/assets/RedHatDisplay-Regular.ttf');
-   src: url('../src/components/assets/RedHatDisplay-Light.ttf');
-   src: url('../src/components/assets/RedHatDisplay-Light.ttf');
+  src: url('../src/components/assets/RedHatDisplay-Regular.ttf');
+  src: url('../src/components/assets/RedHatDisplay-Light.ttf');
+  src: url('../src/components/assets/RedHatDisplay-Light.ttf');
+  /* src: url('../src/components/assets/RedHatDisplay-ExtraBold.ttf'); */
 }
+/* @font-face {
+  font-family: Red Hat Display;
+  src: url('../src/components/assets/RedHatDisplay-Light.ttf');
+  
+} */
+
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: Red Hat Display
-    Helvetica Neue, sans-serif;
-    
+  font-family: Red Hat Display Helvetica Neue, sans-serif;
+
 }
 
 a {
@@ -33,11 +39,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
 .dropdown:hover .dropdown-menu {
   display: block;
 }
 
-.footer{
+.footer {
   background-image: url(/images/FooterImage.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,34 +52,47 @@ a {
 
 }
 
-.hero{
+.hero {
   background-image: url(/images/Hero.png);
   background-size: cover;
-background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   height: 100%;
 }
 
 
-.Hero{
+.Hero {
   background-image: url(/images/herocontact.png);
   background-size: cover;
-background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   height: 100%;
 }
 
-   h1, h2,h3 {
-  src: url('../src/components/assets/RedHatDisplay-ExtraBold.ttf');
-  font-family: Red Hat Display ;
-  font-weight: 900;
-  }
+h1,
+h2,
+h3 {
 
-   span{
-    font-family: Red Hat Display ;
-    font-weight: 400;
-   }
-   p,li{
-    font-family: Red hat Display;
-    font-weight: 200;
-   }
+  font-family: Red Hat Display;
+  font-weight: 900;
+  src: url('../src/components/assets/RedHatDisplay-Bold.ttf');
+}
+
+span {
+  font-family: Red Hat Display;
+  font-weight: 400;
+  src: url('../src/components/assets/RedHatDisplay-Medium.ttf');
+}
+
+p,
+li {
+  font-family: Red hat Display;
+  font-weight: 200;
+  src: url('../src/components/assets/RedHatDisplay-Medium.ttf');
+}
+.heading{
+  font-family: Red Hat Display;
+  src: url('../src/components/assets/RedHatDisplay-Bold.ttf');
+
+
+}
