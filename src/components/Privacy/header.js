@@ -12,7 +12,7 @@ export default function Header() {
 
                     <div className="text-center ">
                         {/* <Image src='/images/StellarStack.png' width={184} height={42} alt="" /> */}
-                        <h1 className='text-[#0399DA] text-[30px] font-bold'>Stellar<span className='text-black'>stack</span></h1>
+                        <h1 className='text-[#0399DA] text-[30px] font-bold'>Stellar<span className='text-black'>stack.</span></h1>
                     </div>
 
                     <div className=' md:w-[70%] text-center md:block hidden pl-36'>
