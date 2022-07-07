@@ -17,9 +17,20 @@ export default function Section5() {
 
                 <div className='md:flex gap-x-12'>
                     <div className='md:w-[50%] pt-2'>
-                        <p className='text-[18px] px-12 md:px-28 font-extralight'>
-                            
-                         We have worked with number of clients, describing and executing the plans deliberately. The undermentioned clients are the ones with whom we have worked and collaborated.Not only eminence in tasks, but one of our prime focus is also to coordinate with clients and execute tasks with a constructive attitude.We have the excellence of creating upstanding designs of novelty and firmly believe that these traits polish our competence.
+                        <p className='text-[18px] px-12 md:px-28 font-medium'>
+
+                            We have worked with number of clients,<br></br>
+                            describing and executing the plans<br></br>
+                            deliberately. The undermentioned<br></br>
+                            clients are the ones with whom we have<br></br>
+                            worked and collaborated.Not only<br></br>
+                            eminence in tasks, but one of our prime<br></br>
+                            focus is also to coordinate with clients<br></br>
+                            and execute tasks with a constructive<br></br>
+                            attitude.We have the excellence of<br></br>
+                            creating upstanding designs of novelty<br></br>
+                            and firmly believe that these traits<br></br>
+                            polish our competence.<br></br>
 
 
 

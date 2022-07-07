@@ -1,13 +1,20 @@
 
 import Image from 'next/image'
 import React from 'react'
-
+import Head from 'next/head';
 
 export default function Header() {
     return (
+        <>
 
-        <div className="bg-[#0d0d0d] pt-8 pb-4 header">
-          
+            <Head>
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+                <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+            </Head>
+            <div className="bg-[#0d0d0d] pt-8 pb-4 header">
+
                 <div className="md:flex container mx-auto">
 
                     <div className="  ">
@@ -15,11 +22,11 @@ export default function Header() {
                         <h1 className='text-[#0399DA] text-[34px] font-extrabold'>Stellar<span className='text-white font-bold'>Stack.</span></h1>
                     </div>
 
-                    <div className=' md:w-[65%] text-center flex justify-center md:block hidden py-3 pl-36'>
-                      <a href="index"><span className='text-white hover:text-[#0399DA]  px-3'>Home</span></a>
-                      <a href=''><span className='text-white px-3 cursor-pointer hover:text-[#0399DA]'>Services</span></a> 
-                      <a href='Aboutus'><span className='text-white px-3 hover:text-[#0399DA]'>About us</span></a> 
-                      <a href='Contactus'><span className='text-white px-3 hover:text-[#0399DA]'>Contact us</span></a>
+                    <div className=' md:w-[65%] text-center flex justify-center md:block hidden pl-36'>
+                        <a href="index"><span className='text-white hover:text-[#0399DA]  px-3'>Home</span></a>
+                        <a href=''><span className='text-white px-3 cursor-pointer hover:text-[#0399DA]'>Services</span></a>
+                        <a href='Aboutus'><span className='text-white px-3 hover:text-[#0399DA]'>About us</span></a>
+                        <a href='Contactus'><span className='text-white px-3 hover:text-[#0399DA]'>Contact us</span></a>
                     </div>
 
                     {/* <div className='lg:w-[20%] pt-12 md:pt-0 md:flex  md:block hidden  '>
@@ -36,9 +43,9 @@ export default function Header() {
                         </form>
                     </div> */}
                 </div>
-                </div>
+            </div>
 
 
-
+        </>
     )
 }

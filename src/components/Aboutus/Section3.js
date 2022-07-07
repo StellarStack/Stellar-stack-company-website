@@ -22,7 +22,7 @@ export default function Section3() {
                         <Image src='/images/Line46.png' width={316} height={1} alt='' />
                         <div className="pt-8 pb-8">
                             <h1 className="font-extrabold">01.</h1>
-                            <h1>Full-Range Web Development Services</h1>
+                            <h1 className="font-medium">Full-Range Web Development Services</h1>
                         </div>
                         <div className="">
                             <Image src='/images/Line46.png' width={316} height={1} alt='' />
@@ -30,7 +30,7 @@ export default function Section3() {
 
                         <div className="pt-8 pb-8">
                             <h1 className="font-extrabold">03.</h1>
-                            <h1>Finding right marketing campaigns </h1>
+                            <h1 className="font-medium" >Finding right marketing campaigns </h1>
                         </div>
 
 
@@ -42,7 +42,7 @@ export default function Section3() {
                         <Image src='/images/Line46.png' width={316} height={1} alt='' />
                         <div className="pt-8 pb-8">
                             <h1 className="font-extrabold">02.</h1>
-                            <h1 className="">User Friendly and appeling designs</h1>
+                            <h1 className="font-medium">User Friendly and appeling designs</h1>
                         </div>
                         <div className="">
                             <Image src='/images/Line46.png' width={316} height={1} alt='' />
