@@ -10,7 +10,7 @@ export default function Hero() {
 
                     <div className="text-center  ">
                         {/* <Image src='/images/LOGO TEXT.png' width={184} height={42} alt="" /> */}
-                        <h1 className='text-[#0399DA] text-[30px] font-extrabold'>Stellar<span className='text-white font-bold'>Stack.</span></h1>
+                        <h1 className='text-[#0399DA] text-[30px] font-extrabold'>Stellar<span className='text-white '>Stack.</span></h1>
                     </div>
                     <div className=' md:w-[70%] text-center flex justify-center py-3 md:block hidden pl-36'>
                         <a href="index"><span className='text-white hover:text-[#0399DA] px-3'>Home</span></a>
@@ -53,7 +53,7 @@ export default function Hero() {
 
                 <div className="container mx-auto pt-8 sm:pt-36 pb-28">
                     <div className="px-5 md:ml-[83px]">
-                        <h1 className="text-[60px] sm:text-[90px] text-white font-extrabold">Better Solutions<br></br> for a<span className="text-[#0399DA] font-extrabold pl-2 leading-5">Better World.</span></h1>
+                        <h1 className="text-[60px] sm:text-[90px] text-white font-medium">Better Solutions<br></br> for a<span className="text-[#0399DA] font-extrabold pl-2 leading-5">Better World.</span></h1>
                     </div>
 
                     <div className="md:flex gap-x-16 pt-12 sm:pt-[200px] ">
@@ -63,8 +63,8 @@ export default function Hero() {
                         <div className=" md:flex gap-x-6">
                             <div className=" px-8 pl-4">
                                 <Image src='/images/Line 18.png' width={279} height={1} alt="" />
-                                <h1 className="text-white font-semibold text-[12px]">01</h1>
-                                <h1 className="text-white font-semibold text-[12px]">Who We Are?</h1>
+                                <h1 className="text-white font-medium text-[12px]">01</h1>
+                                <h1 className="text-white font-medium text-[12px]">Who We Are?</h1>
                             </div>
                             <div className="pl-4">
                                 <Image src='/images/Line 18.png' width={279} height={1} alt="" />

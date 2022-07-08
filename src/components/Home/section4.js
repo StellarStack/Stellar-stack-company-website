@@ -17,8 +17,8 @@ export default function Section4() {
                                 </svg>
                             </div>
                             <div className=''>
-                                <h1 className='text-[32px] font-bold'>Experienced & Trusted Team</h1>
-                                <p className='text-[18px] leading-tight font-medium'> We have delivered over one hundred clients worldwide with our fast<br></br>
+                                <h1 className='text-[32px] font-semibold'>Experienced & Trusted Team</h1>
+                                <p className='text-[18px] leading-tight font-normal'> We have delivered over one hundred clients worldwide with our fast<br></br>
                                     development and mass-volume service provision capability.</p>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ export default function Section4() {
                             </div>
                             <div className=''>
                                 <h1 className='text-[32px] font-semibold'>Innovative ideas</h1>
-                                <p className='text-[18px] leading-tight font-medium'> Our innovative services give the ultimate in flexibility and scalability<br></br>
+                                <p className='text-[18px] leading-tight font-normal'> Our innovative services give the ultimate in flexibility and scalability<br></br>
                                     allowing for different combinations and configurations to meet even your
                                     most demanding requirements.</p>
                             </div>
@@ -70,7 +70,7 @@ export default function Section4() {
                             </div>
                             <div className=''>
                                 <h1 className='text-[32px] font-semibold'>Professional Service</h1>
-                                <p className='text-[18px] leading-tight font-medium'>  The StellarStack team is ever ready to come up with solutions for our<br></br>
+                                <p className='text-[18px] leading-tight font-normal'>  The StellarStack team is ever ready to come up with solutions for our<br></br>
                                     partners. With a dedicated team of experts supporting clients every step
                                     of the way, overcoming digital identity challenges is never a problem.</p>
                             </div>

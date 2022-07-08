@@ -8,7 +8,7 @@ export default function Section1() {
                     <h1 className="text-[#0399DA] font-medium sm:px-0 px-8">01.  <span className="pl-2 font-medium">CONTACT US</span></h1>
                 </div>
                 <div className="sm:px-0 px-8">
-                    <h1 className="text-[64px] leading-[70px] font-extrabold">We’re here to help.</h1>
+                    <h1 className="text-[64px] leading-[70px] font-medium">We’re here to help.</h1>
                 </div>
 
                 <div className="sm:flex ">

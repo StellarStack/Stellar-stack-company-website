@@ -6,10 +6,10 @@ export default function Section1() {
 
             <div className="container mx-auto mt-20 overflow-x-hidden ">
                 <div className="">
-                    <h1 className="text-[#0399DA] font-semibold sm:px-0 px-8">01.  <span className="pl-2 font-semibold">WHO ARE WE</span></h1>
+                    <h1 className="text-[#0399DA] font-medium sm:px-0 px-8">01.  <span className="pl-2 font-medium">WHO ARE WE</span></h1>
                 </div>
                 <div className="px-8 sm:px-0">
-                    <h1 className="text-[60px] leading-[60px] font-extrabold">
+                    <h1 className="text-[60px] leading-[60px] font-medium ">
                         StellarStack is a growing leader in.<br></br>
                         the IT and Marketing Industry.
                     </h1>

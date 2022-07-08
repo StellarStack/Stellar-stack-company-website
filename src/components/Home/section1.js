@@ -8,8 +8,8 @@ export default function Section1() {
         <>
             <div className=' mt-12 container mx-auto max-w-[1400px]'>
                 <div className='ml-10 md:ml-[100.03px]  tracking-tighter'>
-                    <span className='text-[#0399DA]  font-bold text-[16px] '>01. ABOUT US</span>
-                    <h1 className='text-[30px] md:text-[54px] sm:leading-[60px] font-bold pt-6'>StellarStack enables clients to manage<br></br>
+                    <span className='text-[#0399DA]  font-medium text-[16px] '>01. ABOUT US</span>
+                    <h1 className='text-[30px] md:text-[54px] sm:leading-[60px] font-semibold pt-6'>StellarStack enables clients to manage<br></br>
                         digital identity by providing them<br></br> eminent services.</h1>
                 </div>
                 <div className='md:flex gap-x-8'>
@@ -20,7 +20,7 @@ export default function Section1() {
                     </div>
 
                     <div className='px-12 md:px-0 md:w-[60%]'>
-                        <h1 className='text-[26px]  leading-[37px] pt-28 font-extrabold'>Since 2018, StellarStack has been helping organizations<br></br> worldwide get reliable  websites  without any fuss. </h1>
+                        <h1 className='text-[26px]  leading-[37px] pt-28 font-semibold'>Since 2018, StellarStack has been helping organizations<br></br> worldwide get reliable  websites  without any fuss. </h1>
                         <h1 className='text-[19px] font-medium leading-[29px] pt-6 '>Businesses, Software firms, Design Studios and Countless customers have<br></br> experienced how StellarStack can help them become more efficient</h1>
 
                         <div className='pt-6 flex gap-x-2 '>

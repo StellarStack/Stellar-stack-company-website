@@ -7,10 +7,10 @@ export default function Section2() {
             <div className="container mx-auto mt-48">
 
                 <div className="md:w-[50%] md:mx-20">
-                    <h1 className="text-[#0399DA] font-semibold sm:px-0 px-8">02.  <span className="pl-2 font-semibold">VALUES, MISSION, VISION</span></h1>
+                    <h1 className="text-[#0399DA] font-medium sm:px-0 px-8">02.  <span className="pl-2 font-medium">VALUES, MISSION, VISION</span></h1>
                 </div>
                 <div className="sm:px-0 px-8 md:mx-20">
-                    <h1 className=" text-[40px] md:text-[64px] font-extrabold md:text-left text-center">Manouvering on sky.</h1>
+                    <h1 className=" text-[40px] md:text-[64px] font-medium md:text-left text-center">Manouvering on sky.</h1>
                 </div>
                 <div className="mt-20 mx-20 md:text-left text-center">
                     <span className="text-[20px]">More than just a slogan, this is our driving principle that<br></br>

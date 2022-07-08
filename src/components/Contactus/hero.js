@@ -9,7 +9,7 @@ export default function Hero() {
 
                     <div className="text-center  ">
                         {/* <Image src='/images/LOGO TEXT.png' width={184} height={42} alt="" /> */}
-                        <h1 className='text-[#0399DA] text-[30px]'>Stellar<span className='text-white '>stack.</span></h1>
+                        <h1 className='text-[#0399DA] text-[30px]'>Stellar<span className='text-white'>stack.</span></h1>
                     </div>
 
                     <div className=' md:w-[75%] text-center flex justify-center py-3 md:block hidden pl-36'>
@@ -53,7 +53,7 @@ export default function Hero() {
 
                 <div className="container mx-auto pt-8 sm:pt-36 pb-28">
                     <div className="px-5 md:ml-[103px]">
-                        <h1 className="text-[60px] sm:text-[90px] text-white font-extrabold">Let's<span className="text-[#0399DA] font-extrabold pl-2">Talk.</span></h1>
+                        <h1 className="text-[60px] sm:text-[90px] text-white font-medium">Let's<span className="text-[#0399DA] font-medium pl-2">Talk.</span></h1>
                     </div>
 
                     <div className="md:flex pt-12 sm:pt-[200px] ">
