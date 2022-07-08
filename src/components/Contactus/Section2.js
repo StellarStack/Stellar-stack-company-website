@@ -10,7 +10,7 @@ export default function Section2() {
                     <h1 className="text-[#0399DA] font-medium">02.  <span className="pl-2 font-medium">OUR LOCATION</span></h1>
                 </div>
                 <div className="">
-                    <h1 className="text-[64px] leading-[70px] font-medium   ">We’re all over the world.</h1>
+                    <h1 className="text-[64px] leading-[70px] font-medium">We’re all over the world.</h1>
                 </div>
                 <div className="">
                     <Image src="/images/Line5.png" alt=" " width={1392} height={4} />
