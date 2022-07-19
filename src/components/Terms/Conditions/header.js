@@ -7,8 +7,6 @@ export default function Header() {
     return (
 
         <div className="pt-8 pb-4 bg-white header">
-          
-                <div className="container mx-auto md:flex ">
 
                     <div className="text-center ">
                         {/* <Image src='/images/StellarStack.png' width={184} height={42} alt="" /> */}
@@ -22,7 +20,14 @@ export default function Header() {
                       <a href='Contactus'><span className='px-3 hover:text-[#0399DA]'>Contact us</span></a>
                     </div>
 
-                    {/* <div className='lg:w-[20%] pt-12 md:pt-0 md:flex  md:block hidden '>
+                <div className=' md:w-[70%] text-center md:block py-3 hidden pl-36'>
+                    <a href="index">  <span className='px-3 hover:text-[#0399DA]'>Home</span></a>
+                    <a href="Services"><span className='text-white hover:text-[#0399DA] px-3 cursor-pointer'>Services</span></a>
+                    <a href="Aboutus">  <span className='px-3 hover:text-[#0399DA]'>About us</span></a>
+                    <a href='Contactus'><span className='px-3 hover:text-[#0399DA]'>Contact us</span></a>
+                </div>
+
+                {/* <div className='lg:w-[20%] pt-12 md:pt-0 md:flex  md:block hidden '>
                         <form className="flex items-center">
                             <label htmlFor="simple-search" className="sr-only">Search</label>
                             <div className="relative w-[250px]">
@@ -35,8 +40,8 @@ export default function Header() {
                             </div>
                         </form>
                     </div> */}
-                </div>
-                </div>
+            </div>
+       
 
 
 

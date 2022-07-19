@@ -14,7 +14,7 @@ export default function Hero() {
 
                     <div className=' md:w-[75%] text-center flex justify-center py-3 md:block hidden pl-36'>
                         <a href="index"><span className='text-white hover:text-[#0399DA] px-3'>Home</span></a>
-                        <span className='text-white px-3 hover:text-[#0399DA] cursor-pointer'>Services</span>
+                        <a href="Services"><span className='text-white hover:text-[#0399DA] px-3 cursor-pointer'>Services</span></a>
                         <a href="Aboutus"><span className='text-white hover:text-[#0399DA] px-3'>About us</span></a>
                         <span className='text-white hover:text-[#0399DA] px-3 cursor-pointer'>Contact us</span>
                     </div>

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 
 import Image from 'next/image'
 import React from 'react'
@@ -13,7 +14,7 @@ export default function Header() {
                 <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;700&display=swap" rel="stylesheet" />
 
             </Head>
-            <div className="bg-[#0d0d0d] pt-8 pb-4 header">
+            <div className="bg-[#0d0d0d] pt-8 pb-4">
 
                 <div className="md:flex container mx-auto">
 
@@ -24,7 +25,7 @@ export default function Header() {
 
                     <div className=' md:w-[65%] py-3 text-center flex justify-center md:block py-3 hidden pl-36'>
                         <a href="index"><span className='text-white hover:text-[#0399DA]  px-3'>Home</span></a>
-                        <a href=''><span className='text-white px-3 cursor-pointer hover:text-[#0399DA]'>Services</span></a>
+                        <a href='Services'><span className='text-white px-3 cursor-pointer hover:text-[#0399DA]'>Services</span></a>
                         <a href='Aboutus'><span className='text-white px-3 hover:text-[#0399DA]'>About us</span></a>
                         <a href='Contactus'><span className='text-white px-3 hover:text-[#0399DA]'>Contact us</span></a>
                     </div>

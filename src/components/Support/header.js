@@ -19,7 +19,7 @@ export default function Header() {
 
                         <div className=' md:w-[90%] text-center md:block py-3 hidden pl-36'>
                             <a href="Home"><span className='px-3 text-white hover:text-[#0399DA]'>Home</span></a>
-                            <span className='px-3 text-white hover:text-[#0399DA] cursor-pointer'>Services</span>
+                            <a href="Services"><span className='text-white hover:text-[#0399DA] px-3 cursor-pointer'>Services</span></a> 
                             <a href="Aboutus"><span className='px-3 text-white hover:text-[#0399DA]'>About us</span></a>
                             <a href='Contactus'><span className='px-3 text-white hover:text-[#0399DA]'>Contact us</span></a>
                         </div>
