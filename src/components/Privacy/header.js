@@ -8,12 +8,17 @@ export default function Header() {
 
         <div className="pt-8 pb-4 bg-white header">
 
-            <div className="container mx-auto md:flex ">
+                    <div className="text-center ">
+                        {/* <Image src='/images/StellarStack.png' width={184} height={42} alt="" /> */}
+                        <h1 className='text-[#0399DA] text-[30px] font-extrabold'>Stellar<span className='text-black'>Stack.</span></h1>
+                    </div>
 
-                <div className="text-center ">
-                    {/* <Image src='/images/StellarStack.png' width={184} height={42} alt="" /> */}
-                    <h1 className='text-[#0399DA] text-[30px] font-extrabold'>Stellar<span className='text-black font-bold'>Stack.</span></h1>
-                </div>
+                    <div className=' md:w-[70%] text-center md:block py-3 hidden pl-36'>
+                      <a href="index">  <span className='px-3  hover:text-[#0399DA] '>Home</span></a>
+                        <span className='px-3  hover:text-[#0399DA] cursor-pointer'>Services</span>
+                        <a href="Aboutus">  <span className='px-3 hover:text-[#0399DA] '>About us</span></a>
+                      <a href='Contactus'><span className='px-3 hover:text-[#0399DA]'>Contact us</span></a>
+                    </div>
 
                 <div className=' md:w-[70%] text-center md:block py-3 hidden pl-36'>
                     <a href="index">  <span className='px-3  hover:text-[#0399DA] '>Home</span></a>
@@ -36,7 +41,7 @@ export default function Header() {
                         </form>
                     </div>*/}
             </div>
-        </div>
+      
 
 
 

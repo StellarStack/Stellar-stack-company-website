@@ -20,10 +20,10 @@ export default function Header() {
 
                     <div className="  ">
                         {/* <Image src='/images/LOGO TEXT.png' width={184} height={42} alt="" /> */}
-                        <h1 className='text-[#233942] text-[34px] font-extrabold'>Stellar<span className='text-white font-bold'>Stack.</span></h1>
+                        <h1 className='text-[#0399DA] text-[34px] font-extrabold'>Stellar<span className='text-white'>Stack.</span></h1>
                     </div>
 
-                    <div className=' md:w-[65%] py-3 text-center flex justify-center md:block hidden pl-36'>
+                    <div className=' md:w-[65%] py-3 text-center flex justify-center md:block py-3 hidden pl-36'>
                         <a href="index"><span className='text-white hover:text-[#0399DA]  px-3'>Home</span></a>
                         <a href='Services'><span className='text-white px-3 cursor-pointer hover:text-[#0399DA]'>Services</span></a>
                         <a href='Aboutus'><span className='text-white px-3 hover:text-[#0399DA]'>About us</span></a>
