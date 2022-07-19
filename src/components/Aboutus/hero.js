@@ -1,10 +1,10 @@
-  /* eslint-disable react/no-unescaped-entities */
-  import Image from "next/image"
+/* eslint-disable react/no-unescaped-entities */
+import Image from "next/image"
 
 export default function Hero() {
     return (
         <>
-      
+
             <div className="bg-white pt-8 pb-4 header Hero ">
                 <div className="md:flex container mx-auto ">
 
@@ -12,13 +12,9 @@ export default function Hero() {
                         {/* <Image src='/images/LOGO TEXT.png' width={184} height={42} alt="" /> */}
                         <h1 className='text-[#0399DA] text-[30px] font-extrabold'>Stellar<span className='text-white font-bold'>Stack.</span></h1>
                     </div>
-<<<<<<< HEAD
-                    <div className=' md:w-[70%] py-3 text-center flex justify-center md:block hidden pl-36'>
-=======
                     <div className=' md:w-[70%] text-center flex justify-center py-3 md:block hidden pl-36'>
->>>>>>> d9dce60dfe324418b193e2f078e3e3394c1f7a19
                         <a href="index"><span className='text-white hover:text-[#0399DA] px-3'>Home</span></a>
-                        <span className='text-white hover:text-[#0399DA] px-3 cursor-pointer'>Services</span>
+                        <a href="Services"><span className='text-white hover:text-[#0399DA] px-3 cursor-pointer'>Services</span></a>
                         <a href="Aboutus"><span className='text-white hover:text-[#0399DA] px-3'>About us</span></a>
                         <a href="Contactus"><span className='text-white hover:text-[#0399DA] px-3'>Contact us</span></a>
                     </div>
@@ -36,7 +32,7 @@ export default function Hero() {
                             </div>
                         </form>
                     </div> */}
-                </div> 
+                </div>
 
 
 
@@ -79,7 +75,7 @@ export default function Hero() {
                                 <Image src='/images/Line 18.png' width={279} height={1} alt="" />
                                 <h1 className="text-white font-semibold text-[12px]">01</h1>
                                 <h1 className="text-white font-semibold text-[12px]">Why Stellarstack?</h1>
-                            </div>                    
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -90,4 +86,3 @@ export default function Hero() {
     )
 }
 
-        

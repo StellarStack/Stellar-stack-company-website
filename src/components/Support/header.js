@@ -17,13 +17,9 @@ export default function Header() {
                             <h1 className='text-[#0399DA] text-[30px] font-extrabold'>Stellar<span className='text-white font-bold'>Stack.</span></h1>
                         </div>
 
-<<<<<<< HEAD
-                        <div className=' md:w-[90%] text-center md:block hidden py-3 pl-36'>
-=======
                         <div className=' md:w-[90%] text-center md:block py-3 hidden pl-36'>
->>>>>>> d9dce60dfe324418b193e2f078e3e3394c1f7a19
                             <a href="Home"><span className='px-3 text-white hover:text-[#0399DA]'>Home</span></a>
-                            <span className='px-3 text-white hover:text-[#0399DA] cursor-pointer'>Services</span>
+                            <a href="Services"><span className='text-white hover:text-[#0399DA] px-3 cursor-pointer'>Services</span></a> 
                             <a href="Aboutus"><span className='px-3 text-white hover:text-[#0399DA]'>About us</span></a>
                             <a href='Contactus'><span className='px-3 text-white hover:text-[#0399DA]'>Contact us</span></a>
                         </div>
